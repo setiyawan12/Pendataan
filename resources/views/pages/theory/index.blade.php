@@ -167,7 +167,7 @@ Theory
     async function getData(id) {
         let url1 = url + id + '/edit';
         try {
-            let res = await fetch(url1);
+            let res = await fetch(url1,{headers:{mode:'no-cors'}});
             return await res.json();
         } catch (error) {
             console.log(error);

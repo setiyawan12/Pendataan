@@ -19,3 +19,6 @@ Route::get('/', function () {
 
 Route::resource('squad', 'Squad\SquadController')->except('show');
 Route::resource('theory', 'Theory\TheoryController')->except('show');
+
+Route::get('/teori','Theory\TheoryController@jsonGetAllData');
+Route::get('/teori1','Theory\TheoryController@coba');

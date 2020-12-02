@@ -16,5 +16,6 @@
 <script src="{{asset('assets/js/lottie.js')}}"></script>
 <script src="{{asset('assets/js/chart-custom.js')}}"></script>
 <script src="{{asset('assets/js/custom.js')}}"></script>
+<script src="{{asset('assets/js/jquery.dataTables.min.js')}}"></script>
 <script src="{{asset('vendor/sweetalert/sweetalert.all.js')}}"></script>
 @yield('script')
