@@ -24,7 +24,6 @@ $(document).ready(function(){
         url: "http://localhost:8000/teori",
         async : true,
         dataType: 'json',
-
         success:function(data){
             let html = '';
             for(i=0; i< data.theory.length;i++){
@@ -35,7 +34,6 @@ $(document).ready(function(){
                 <td>${data.theory[i].meeting}</td>
                 <td>${data.theory[i].date}</td>
                 <td>${data.theory[i].link}</td>
-
               </tr>
             `
             }

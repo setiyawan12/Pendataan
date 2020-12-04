@@ -1,0 +1,13 @@
+<!-- Stylesheets -->
+<link href="{{asset('assets_web_profile/css/font-awesome-all.css')}}" rel="stylesheet">
+<link href="{{asset('assets_web_profile/css/flaticon.css')}}" rel="stylesheet">
+<link href="{{asset('assets_web_profile/css/owl.css')}}" rel="stylesheet">
+<link href="{{asset('assets_web_profile/css/bootstrap.css')}}" rel="stylesheet">
+<link href="{{asset('assets_web_profile/css/jquery.fancybox.min.css')}}" rel="stylesheet">
+<link href="{{asset('assets_web_profile/css/animate.css')}}" rel="stylesheet">
+<link href="{{asset('assets_web_profile/css/imagebg.css')}}" rel="stylesheet">
+<link href="{{asset('assets_web_profile/css/global.css')}}" rel="stylesheet">
+<link href="{{asset('assets_web_profile/css/header.css')}}" rel="stylesheet">
+<link href="{{asset('assets_web_profile/css/color.css')}}" rel="stylesheet">
+<link href="{{asset('assets_web_profile/css/style.css')}}" rel="stylesheet">
+<link href="{{asset('assets_web_profile/css/responsive.css')}}" rel="stylesheet">

@@ -100,7 +100,8 @@ class TheoryController extends Controller
             'link' => $request->link
         ]);
 
-        return redirect()->route('theory.index')->with('alert','Data changed successfully');
+        return redirect()->route('theory.index');
+        // ->with('alert','Data changed successfully');
 
 
     }
@@ -119,18 +120,18 @@ class TheoryController extends Controller
         return redirect()->route('theory.index')->with('alert','Data deleted successfully');
     }
 
-    
-    public function jsonGetAllData()
-    {
+    public function getDataJson(){
         $theory = Theory::all();
         return response()->json([
             'message' => 'succes',
-            'status' => true,
+            'status' =>true,
             'theory' => $theory
         ]);
     }
 
-    public function coba(){
-        return view('pages.theory.teori');
+    public function coba (){
+        return view ('pages.theory.teori');
     }
+
+    
 }

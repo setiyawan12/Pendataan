@@ -26,6 +26,8 @@ Theory
                 <div class="col-md-2">
                     <a href="{{ route('theory.index')}}" class="btn btn-success btn-block">Refresh</a>
                 </div>
+                <div class="col-md-2">
+                </div>
             </div>
         </form>
     </div>
@@ -128,7 +130,7 @@ Theory
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Save changes</button>
+                    <button type="submit" class="btn btn-primary" onclick="return add()">Save changes</button>
                 </div>
             </div>
         </form>
@@ -228,5 +230,15 @@ Theory
         }
     }
 
+    const checkSweetAlert = () => {
+        swal("Hello World")
+    }
+    const add = () => {
+        swal({
+            title: "Good job!",
+            text: "You clicked the button!",
+            icon: "success",
+        });
+    }
 </script>
 @endsection

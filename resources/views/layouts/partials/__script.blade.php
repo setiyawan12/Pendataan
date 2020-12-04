@@ -17,5 +17,6 @@
 <script src="{{asset('assets/js/chart-custom.js')}}"></script>
 <script src="{{asset('assets/js/custom.js')}}"></script>
 <script src="{{asset('assets/js/jquery.dataTables.min.js')}}"></script>
-<script src="{{asset('vendor/sweetalert/sweetalert.all.js')}}"></script>
+<!-- <script src="{{asset('vendor/sweetalert/sweetalert.all.js')}}"></script> -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 @yield('script')
