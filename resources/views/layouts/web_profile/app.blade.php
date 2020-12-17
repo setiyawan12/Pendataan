@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<title>Naxly - HTML 5 Template Preview</title>
+<title>PLUG-IN V2</title>
 
 <!-- Fav Icon -->
 <link rel="icon" href="{{ asset('assets_web_profile/images/favicon.ico') }}" type="image/x-icon">
@@ -247,7 +247,7 @@
         <!--sticky Header-->
         <div class="sticky-header">
             <div class="auto-container clearfix">
-                <figure class="logo-box"><a href="index.html"><img src="assets_web_profile/images/small-logo-4.png" alt=""></a></figure>
+                <figure class="logo-box"><a href="index.html"><img src="assets_web_profile/images/logo-4.png" alt=""></a></figure>
                 <div class="menu-area clearfix">
                     <nav class="main-menu clearfix">
                         <!--Keep This Empty / Menu will come through Javascript-->
@@ -320,9 +320,9 @@
             <div class="row clearfix align-items-center">
                 <div class="col-xl-6 col-lg-12 col-md-12 content-column">
                     <div class="content-box">
-                        <h2>Turn Clicks Into</h2>
-                        <h1>Customer</h1>
-                        <p>Must explain to you how all this mistaken idea of pleasure and praising pain was born and will give you a complete account of the system, and expound the actual teachings.</p>
+                        <h2>Plugin-v2</h2>
+                        <h1>Startup</h1>
+                        <p>Harus menjelaskan kepada Anda bagaimana semua gagasan keliru tentang kesenangan dan pujian rasa sakit ini lahir dan akan memberi Anda penjelasan lengkap tentang sistem, dan menjelaskan ajaran yang sebenarnya.</p>
                         <a href="index-2.html" class="theme-btn style-nine">Learn More</a>
                     </div>
                 </div>
@@ -339,9 +339,9 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-three wow flipInY" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <h3><a href="service-details.html">Individual Analyst</a></h3>
+                            <h3><a href="service-details.html">Analis Individu</a></h3>
                             <figure class="image-box"><img src="assets_web_profile/images/service/service-1.png" alt=""></figure>
-                            <p>Simple easy distinguish in a free hour when our power choice.</p>
+                            <p>Sederhana mudah membedakan dalam jam bebas saat pilihan daya kita.</p>
                             <div class="link"><a href="service-details.html"><i class="fas fa-angle-left"></i>Read More<i class="fas fa-angle-right"></i></a></div>
                         </div>
                     </div>
@@ -350,8 +350,8 @@
                     <div class="service-block-three wow flipInY" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><img src="{{ asset('assets_web_profile/images/service/service-2.png') }}" alt=""></figure>
-                            <h3><a href="service-details.html">Teams & Organizations</a></h3>
-                            <p>Therefore always hold these matters to principle reject pleasures.</p>
+                            <h3><a href="service-details.html">Tim & Organisasi</a></h3>
+                            <p>Oleh karena itu selalu peganglah hal-hal ini pada prinsip tolak kesenangan.</p>
                             <div class="link"><a href="service-details.html"><i class="fas fa-angle-left"></i>Read More<i class="fas fa-angle-right"></i></a></div>
                         </div>
                     </div>
@@ -361,7 +361,7 @@
                         <div class="inner-box">
                             <h3><a href="service-details.html">Embedded Analytics</a></h3>
                             <figure class="image-box"><img src="assets_web_profile/images/service/service-3.png" alt=""></figure>
-                            <p>Trouble that bound ensue equaly blame belongs to those weakness.</p>
+                            <p>Masalah yang terikat memastikan kesalahan yang sama milik kelemahan itu.</p>
                             <div class="link"><a href="service-details.html"><i class="fas fa-angle-left"></i>Read More<i class="fas fa-angle-right"></i></a></div>
                         </div>
                     </div>
@@ -707,7 +707,7 @@
                     <div class="testimonial-content">
                         <div class="inner-box">
                             <div class="upper-box">
-                                <figure class="logo-box"><img src="assets_web_profile/images/resource/testimonial-logo-2.png" alt=""></figure>
+                                <figure class="logo-box"><img src="assets_web_profile/images/resource/1&2.png" alt=""></figure>
                                 <p>Blinded by desire that they foresee all pain and trouble that are bound ensue and equal blame belongs.</p>
                                 <ul class="rating clearfix">
                                     <li><i class="flaticon-stars"></i></li>
@@ -727,7 +727,7 @@
                     <div class="testimonial-content">
                         <div class="inner-box">
                             <div class="upper-box">
-                                <figure class="logo-box"><img src="assets_web_profile/images/resource/testimonial-logo-3.png" alt=""></figure>
+                                <figure class="logo-box"><img src="assets_web_profile/images/resource/finalis.png" alt=""></figure>
                                 <p>Power of choice is untrammelled and when nothing prevents our being to do what we like best.</p>
                                 <ul class="rating clearfix">
                                     <li><i class="flaticon-stars"></i></li>
