@@ -9,7 +9,7 @@
 <title>Naxly - HTML 5 Template Preview</title>
 
 <!-- Fav Icon -->
-<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="{{ asset('assets_web_profile/images/favicon.ico') }}" type="image/x-icon">
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
@@ -31,20 +31,20 @@
             <div class="animation-preloader">
                 <div class="spinner"></div>
                 <div class="txt-loading">
+                    <span data-text-preloader="P" class="letters-loading">
+                        P
+                    </span>
+                    <span data-text-preloader="O" class="letters-loading">
+                        O
+                    </span>
                     <span data-text-preloader="N" class="letters-loading">
                         N
                     </span>
-                    <span data-text-preloader="A" class="letters-loading">
-                        A
-                    </span>
-                    <span data-text-preloader="X" class="letters-loading">
-                        X
-                    </span>
-                    <span data-text-preloader="L" class="letters-loading">
-                        L
-                    </span>
                     <span data-text-preloader="Y" class="letters-loading">
                         Y
+                    </span>
+                    <span data-text-preloader="O" class="letters-loading">
+                        O
                     </span>
                 </div>
             </div>  
@@ -80,57 +80,15 @@
     </div>
     <!-- search-popup end -->
 
-
     <!-- main header -->
-    <header class="main-header style-two">
-        <div class="header-top">
-            <div class="large-container">
-                <div class="top-inner clearfix">
-                    <div class="top-left pull-left clearfix">
-                        <ul class="social-links clearfix">
-                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="index.html"><i class="fab fa-skype"></i></a></li>
-                        </ul>
-                        <ul class="links clearfix">
-                            <li><a href="index.html">Faq’s</a></li>
-                            <li><a href="index.html">Career</a></li>
-                            <li><a href="index.html">News</a></li>
-                        </ul>
-                        <div class="request-btn"><i class="flaticon-next"></i><a href="index.html">Request for Demo</a></div>
-                    </div>
-                    <div class="top-right pull-right clearfix">
-                        <div class="support"><i class="flaticon-music"></i><span>Start your project today</span><a href="tel:0055567890">+00 555 67 890</a></div>
-                        <div class="search-box-outer">
-                            <form action="index.html" method="post" class="search-btn">
-                                <button type="button" class="search-toggler"><i class="flaticon-search"></i>Search</button>
-                            </form>
-                        </div>
-                        <div class="language">
-                            <div class="lang-btn">
-                                <span class="flag"><img src="assets/images/icons/icon-lang.png" alt="" title="English"></span>
-                                <span class="txt">Eng</span>
-                                <span class="arrow fa fa-angle-down"></span>
-                            </div>
-                            <div class="lang-dropdown">
-                                <ul>
-                                    <li><a href="index.html">German</a></li>
-                                    <li><a href="index.html">Italian</a></li>
-                                    <li><a href="index.html">Chinese</a></li>
-                                    <li><a href="index.html">Russian</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <header class="main-header style-four">
+        <div class="auto-container">
         </div>
         <div class="header-upper">
-            <div class="large-container">
+            <div class="auto-container">
                 <div class="outer-box clearfix">
                     <div class="logo-box pull-left">
-                        <figure class="logo"><a href="index.html"><img src="assets/images/logo-2.png" alt=""></a></figure>
+                        <figure class="logo"><a href="index.html"><img src="{{asset('assets_web_profile/images/logo-4.png')}}" alt=""></a></figure>
                     </div>
                     <div class="menu-area pull-right clearfix">
                         <!--Mobile Navigation Toggler-->
@@ -142,17 +100,17 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a href="index-2.html">Home</a>
+                                    <li class="current dropdown"><a href="index-4.html">Home</a>
                                         <ul>
-                                            <li><a href="index.html">Data Science<i class="flaticon-next"></i></a></li>
-                                            <li><a href="index-2.html">Artificial intelligence<i class="flaticon-next"></i></a></li>
-                                            <li><a href="index-3.html">Machine Learning<i class="flaticon-next"></i></a></li>
-                                            <li><a href="index-4.html">Business Intelligence<i class="flaticon-next"></i></a></li>
-                                            <li><a href="index-5.html">User Analysis<i class="flaticon-next"></i></a></li>
-                                            <li><a href="index-boxed.html">Home Boxed<i class="flaticon-next"></i></a></li>
-                                            <li><a href="index-rtl.html">Home RTL<i class="flaticon-next"></i></a></li>
-                                            <li><a href="index-onepage.html">Home OnePage<i class="flaticon-next"></i></a></li>
-                                            <li class="dropdown"><a href="index-2.html">Header Styles</a>
+                                            <li><a href="#">Data Science<i class="flaticon-next"></i></a></li>
+                                            <li><a href="#">Artificial intelligence<i class="flaticon-next"></i></a></li>
+                                            <li><a href="#">Machine Learning<i class="flaticon-next"></i></a></li>
+                                            <li><a href="#">Business Intelligence<i class="flaticon-next"></i></a></li>
+                                            <li><a href="#">User Analysis<i class="flaticon-next"></i></a></li>
+                                            <li><a href="#">Home Boxed<i class="flaticon-next"></i></a></li>
+                                            <li><a href="#">Home RTL<i class="flaticon-next"></i></a></li>
+                                            <li><a href="#">Home OnePage<i class="flaticon-next"></i></a></li>
+                                            <li class="dropdown"><a href="index-4.html">Header Styles</a>
                                                 <ul>
                                                     <li><a href="index.html">Header Style One<i class="flaticon-next"></i></a></li>
                                                     <li><a href="index-2.html">Header Style Two<i class="flaticon-next"></i></a></li>
@@ -163,20 +121,20 @@
                                             </li>
                                         </ul>
                                     </li> 
-                                    <li class="dropdown"><a href="index-2.html">Company</a>
+                                    <li class="dropdown"><a href="index-4.html">Company</a>
                                         <ul>
                                             <li><a href="about.html">About Company<i class="flaticon-next"></i></a></li>
                                             <li><a href="team.html">Meet Our Team<i class="flaticon-next"></i></a></li>
                                             <li><a href="contact.html">Contact Us<i class="flaticon-next"></i></a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="index-2.html">Services</a>
+                                    <li class="dropdown"><a href="index-4.html">Services</a>
                                         <ul>
                                             <li><a href="service.html">All Services<i class="flaticon-next"></i></a></li>
                                             <li><a href="service-details.html">Service Details<i class="flaticon-next"></i></a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="index-2.html">Works</a>
+                                    <li class="dropdown"><a href="index-4.html">Works</a>
                                         <ul>
                                             <li><a href="project.html">Project 2 Columns<i class="flaticon-next"></i></a></li>
                                             <li><a href="project-2.html">Project 3 Columns<i class="flaticon-next"></i></a></li>
@@ -184,7 +142,7 @@
                                             <li><a href="project-details.html">Case Details<i class="flaticon-next"></i></a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="index-2.html">Blog</a>
+                                    <li class="dropdown"><a href="index-4.html">Blog</a>
                                         <ul>
                                             <li><a href="blog-1.html">Classic Grid<i class="flaticon-next"></i></a></li>
                                             <li><a href="blog-2.html">Classic With S/B<i class="flaticon-next"></i></a></li>
@@ -193,7 +151,7 @@
                                             <li><a href="blog-details.html">Single Post<i class="flaticon-next"></i></a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="index-2.html">Elements</a>
+                                    <li class="dropdown"><a href="index-4.html">Elements</a>
                                         <div class="megamenu">
                                             <div class="row clearfix">
                                                 <div class="col-lg-3 column">
@@ -251,7 +209,7 @@
                                             </div>                                                
                                         </div>
                                     </li>
-                                    <li class="dropdown"><a href="index-2.html">Pages</a>
+                                    <li class="dropdown"><a href="index-4.html">Pages</a>
                                         <ul>
                                             <li><a href="error.html">404<i class="flaticon-next"></i></a></li>
                                             <li><a href="coming-soon.html">Coming Soon<i class="flaticon-next"></i></a></li>
@@ -261,8 +219,25 @@
                                 </ul>
                             </div>
                         </nav>
-                        <div class="btn-box">
-                            <a href="index-2.html" class="theme-btn style-five">Get in Touch</a>
+                        <div class="menu-right-content clearfix">
+                            <ul class="social-links clearfix">
+                                <li><a href="index-4.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index-4.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index-4.html"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                            <div class="language">
+                                <div class="lang-btn">
+                                    <span class="flag"><img src="assets_web_profile/images/icons/icon-lang-2.png" alt="" title="English"></span>
+                                </div>
+                                <div class="lang-dropdown">
+                                    <ul>
+                                        <li><a href="index.html">German</a></li>
+                                        <li><a href="index.html">Italian</a></li>
+                                        <li><a href="index.html">Chinese</a></li>
+                                        <li><a href="index.html">Russian</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -271,14 +246,31 @@
 
         <!--sticky Header-->
         <div class="sticky-header">
-            <div class="large-container clearfix">
-                <figure class="logo-box"><a href="index.html"><img src="assets/images/small-logo-2.png" alt=""></a></figure>
-                <div class="menu-area">
+            <div class="auto-container clearfix">
+                <figure class="logo-box"><a href="index.html"><img src="assets_web_profile/images/small-logo-4.png" alt=""></a></figure>
+                <div class="menu-area clearfix">
                     <nav class="main-menu clearfix">
                         <!--Keep This Empty / Menu will come through Javascript-->
                     </nav>
-                    <div class="btn-box">
-                        <a href="index-2.html" class="theme-btn style-five">Get in Touch</a>
+                    <div class="menu-right-content clearfix">
+                        <ul class="social-links clearfix">
+                            <li><a href="index-4.html"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="index-4.html"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="index-4.html"><i class="fab fa-google-plus-g"></i></a></li>
+                        </ul>
+                        <div class="language">
+                            <div class="lang-btn">
+                                <span class="flag"><img src="assets_web_profile/images/icons/icon-lang-2.png" alt="" title="English"></span>
+                            </div>
+                            <div class="lang-dropdown">
+                                <ul>
+                                    <li><a href="index.html">German</a></li>
+                                    <li><a href="index.html">Italian</a></li>
+                                    <li><a href="index.html">Chinese</a></li>
+                                    <li><a href="index.html">Russian</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -292,7 +284,7 @@
         <div class="close-btn"><i class="fas fa-times"></i></div>
         
         <nav class="menu-box">
-            <div class="nav-logo"><a href="index.html"><img src="assets/images/logo.png" alt="" title=""></a></div>
+            <div class="nav-logo"><a href="index.html"><img src="assets_web_profile/images/logo.png" alt="" title=""></a></div>
             <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             <div class="contact-info">
                 <h4>Contact Info</h4>
@@ -316,36 +308,22 @@
 
 
     <!-- banner-section -->
-    <section class="banner-style-two">
-        <div class="pattern-layer" style="background-image: url({{asset('assets_web_profile/images/shape/shape-10.png')}});"></div>
-        <div class="large-container">
-            <div class="row clearfix">
-                <div class="col-lg-5 col-md-12 col-sm-12 content-column">
+    <section class="banner-style-four">
+        <div class="anim-icon">
+            <span class="icon icon-1" style="background-image: url(assets_web_profile/images/icons/anim-icon-1.png);"></span>
+            <span class="icon icon-2" style="background-image: url(assets_web_profile/images/icons/anim-icon-2.png);"></span>
+            <span class="icon icon-3" style="background-image: url(assets_web_profile/images/icons/anim-icon-3.png);"></span>
+        </div>
+        <div class="pattern-layer" style="background-image: url(assets_web_profile/images/shape/shape-23.png);"></div>
+        <figure class="image-layer"><img src="assets_web_profile/images/banner/banner-4-1.png" alt=""></figure>
+        <div class="auto-container">
+            <div class="row clearfix align-items-center">
+                <div class="col-xl-6 col-lg-12 col-md-12 content-column">
                     <div class="content-box">
-                        <h1>Best Artificial Intelligence Lab</h1>
-                        <p>Naxly bring the power of data science and artificial intelligence to every business.</p>
-                        <a href="index-2.html" class="theme-btn style-five"><i class="flaticon-next"></i>More Details</a>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-12 col-sm-12 image-column">
-                    <div class="image-box">
-                        <figure class="image image-1"><img src="{{ asset('assets_web_profile/images/banner/banner-2-1.png') }}" alt=""></figure>
-                        <figure class="image image-2 rotate-me"><img src="assets/images/icons/gear-4.png" alt=""></figure>
-                        <figure class="image image-3 rotate-me"><img src="assets/images/icons/gear-5.png" alt=""></figure>
-                        <figure class="image image-4 rotate-me"><img src="assets/images/icons/gear-5.png" alt=""></figure>
-                        <figure class="image image-5 rotate-me"><img src="assets/images/icons/gear-6.png" alt=""></figure>
-                        <div class="anim-icon">
-                            <span class="icon icon-1"></span>
-                            <span class="icon icon-2"></span>
-                            <span class="icon icon-3"></span>
-                            <span class="icon icon-4"></span>
-                            <span class="icon icon-5"></span>
-                            <span class="icon icon-6"></span>
-                            <span class="icon icon-7"></span>
-                            <span class="icon icon-8"></span>
-                            <span class="icon icon-9"></span>
-                            <span class="icon icon-10"></span>
-                        </div>
+                        <h2>Turn Clicks Into</h2>
+                        <h1>Customer</h1>
+                        <p>Must explain to you how all this mistaken idea of pleasure and praising pain was born and will give you a complete account of the system, and expound the actual teachings.</p>
+                        <a href="index-2.html" class="theme-btn style-nine">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -354,50 +332,231 @@
     <!-- banner-section end -->
 
 
-    <div class="subscribe-us">
-        <div class="large-container">
-            <div class="subscribe-inner">
-                <form action="index-2.html" method="post">
-                    <div class="form-group">
-                        <input type="email" name="email" placeholder="Enter Email Address..." required="">
-                        <button type="submit"><i class="flaticon-next"></i>Subscribe Us</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- about-style-two -->
-    <section class="about-style-two">
+    <!-- service-style-three -->
+    <section class="service-style-three">
         <div class="auto-container">
             <div class="row clearfix">
-                <div class="col-lg-7 col-md-12 col-sm-12 image-column">
-                    <div id="image_block_01">
-                        <div class="image-box wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-12.png);"></div>
-                            <figure class="image js-tilt"><img src="assets/images/resource/about-1.png" alt=""></figure>
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block">
+                    <div class="service-block-three wow flipInY" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <h3><a href="service-details.html">Individual Analyst</a></h3>
+                            <figure class="image-box"><img src="assets_web_profile/images/service/service-1.png" alt=""></figure>
+                            <p>Simple easy distinguish in a free hour when our power choice.</p>
+                            <div class="link"><a href="service-details.html"><i class="fas fa-angle-left"></i>Read More<i class="fas fa-angle-right"></i></a></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-12 col-sm-12 content-column">
-                    <div id="content_block_03">
-                        <div class="content-box">
-                            <div class="sec-title style-two text-left">
-                                <p>About Company</p>
-                                <h2>Mission is to bring the power of AI to every business</h2>
-                                <div class="decor" style="background-image: url(assets/images/icons/decor-1.png);"></div>
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block">
+                    <div class="service-block-three wow flipInY" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <figure class="image-box"><img src="{{ asset('assets_web_profile/images/service/service-2.png') }}" alt=""></figure>
+                            <h3><a href="service-details.html">Teams & Organizations</a></h3>
+                            <p>Therefore always hold these matters to principle reject pleasures.</p>
+                            <div class="link"><a href="service-details.html"><i class="fas fa-angle-left"></i>Read More<i class="fas fa-angle-right"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block">
+                    <div class="service-block-three wow flipInY" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <h3><a href="service-details.html">Embedded Analytics</a></h3>
+                            <figure class="image-box"><img src="assets_web_profile/images/service/service-3.png" alt=""></figure>
+                            <p>Trouble that bound ensue equaly blame belongs to those weakness.</p>
+                            <div class="link"><a href="service-details.html"><i class="fas fa-angle-left"></i>Read More<i class="fas fa-angle-right"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service-style-three end -->
+
+
+    <!-- technology-style-two -->
+    <section class="technology-style-two">
+        <div class="upper-box">
+            <div class="anim-icon">
+                <span class="icon icon-7" style="background-image: url(assets_web_profile/images/icons/butterfly-1.png);"></span>
+                <span class="icon icon-8" style="background-image: url(assets_web_profile/images/icons/butterfly-2.png);"></span>
+            </div>
+            <div class="auto-container">
+                <div class="upper-inner">
+                    <div class="sec-title text-center mb-50">
+                        <p>Technologies</p>
+                        <h2>Inspiring possibility for a brand’s<br />digital experience</h2>
+                        <div class="decor" style="background-image: url(assets_web_profile/images/icons/decor-1.png);"></div>
+                    </div>
+                    <div class="image-box">
+                
+                        <figure class="image image-1"><img src="{{asset('assets_web_profile/resource/tab-1.png')}}" alt=""></figure>
+                        <figure class="image image-2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="assets_web_profile/images/resource/phone-1.png" alt=""></figure>
+                        <figure class="image image-3 wow slideInRight" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="{{asset('assets_web_profile/images/resource/screen-1.png')}}" alt=""></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lower-box">
+            <div class="anim-icon">
+                <span class="icon icon-1" style="background-image: url(assets_web_profile/images/icons/anim-icon-4.png);"></span>
+                <span class="icon icon-2" style="background-image: url(assets_web_profile/images/icons/anim-icon-5.png);"></span>
+                <span class="icon icon-3" style="background-image: url(assets_web_profile/images/icons/anim-icon-6.png);"></span>
+                <span class="icon icon-4" style="background-image: url(assets_web_profile/images/icons/anim-icon-7.png);"></span>
+                <span class="icon icon-5" style="background-image: url(assets_web_profile/images/icons/anim-icon-8.png);"></span>
+                <span class="icon icon-6" style="background-image: url(assets_web_profile/images/icons/anim-icon-9.png);"></span>
+            </div>
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-6 col-md-12 col-sm-12 technology-block">
+                        <div class="technology-block-two wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="border-box">
+                                    <span class="border border-1"></span>
+                                    <span class="border border-2"></span>
+                                </div>
+                                <figure class="image-box"><img src="assets_web_profile/images/resource/technonogy-1.png" alt=""></figure>
+                                <div class="inner">
+                                    <h3>Embedded in App</h3>
+                                    <p>To take trivial example which idea of ever undertakes.</p>
+                                    <a href="index-4.html">Read More<i class="fas fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 technology-block">
+                        <div class="technology-block-two wow fadeInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="border-box">
+                                    <span class="border border-1"></span>
+                                    <span class="border border-2"></span>
+                                </div>
+                                <figure class="image-box"><img src="assets_web_profile/images/resource/technonogy-2.png" alt=""></figure>
+                                <div class="inner">
+                                    <h3>Analytics in Cloud</h3>
+                                    <p>Best every pleasure is too welcomed every pain avoided.</p>
+                                    <a href="index-4.html">Read More<i class="fas fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 technology-block">
+                        <div class="technology-block-two wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="border-box">
+                                    <span class="border border-1"></span>
+                                    <span class="border border-2"></span>
+                                </div>
+                                <figure class="image-box"><img src="assets_web_profile/images/resource/technonogy-3.png" alt=""></figure>
+                                <div class="inner">
+                                    <h3>Real Time Insights</h3>
+                                    <p>Have to be repudiated all annoyances accepted the wise.</p>
+                                    <a href="index-4.html">Read More<i class="fas fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 technology-block">
+                        <div class="technology-block-two wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="border-box">
+                                    <span class="border border-1"></span>
+                                    <span class="border border-2"></span>
+                                </div>
+                                <figure class="image-box"><img src="assets_web_profile/images/resource/technonogy-4.png" alt=""></figure>
+                                <div class="inner">
+                                    <h3>Secure & Fast</h3>
+                                    <p>Trouble that bound ensue equaly too those through weakness.</p>
+                                    <a href="index-4.html">Read More<i class="fas fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- technology-style-two end -->
+
+
+    <!-- about-style-four -->
+    <section class="about-style-four">
+        <div class="pattern-layer" style="background-image: url(assets_web_profile/images/shape/shape-25.png);"></div>
+        <div class="auto-container">
+            <div class="row clearfix">
+                <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <div id="image_block_03">
+                        <div class="image-box">
+                            <div class="pattern-layer rotate-me" style="background-image: url(assets_web_profile/images/shape/shape-24.png);"></div>
+                            <figure class="image image-1"><img src="assets_web_profile/images/resource/tab-2.png" alt=""></figure>
+                            <figure class="image image-2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="assets_web_profile/images/resource/screen-2.png" alt=""></figure>
+                            <figure class="image image-3 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="assets_web_profile/images/resource/screen-3.png" alt=""></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                    <div id="content_block_08">
+                        <div class="content-box mt-10">
+                            <div class="sec-title text-left">
+                                <p>We are Naxly</p>
+                                <h2>Powerful analytics that goes beyond your organization</h2>
+                                <div class="decor" style="background-image: url(assets_web_profile/images/icons/decor-1.png);"></div>
                             </div>
                             <div class="text">
-                                <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it but right to find fault with a man who chooses enjoy.</p>
+                                <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it who do not know how to pursue pleasure rationally encounter.</p>
                             </div>
-                            <div class="lower-box">
-                                <div class="icon-box">
-                                    <div class="bg-box" style="background-image: url(assets/images/icons/icon-bg-3.png);"></div>
-                                    <i class="flaticon-brain-2"></i>
+                            <ul class="list-item clearfix">
+                                <li><span class="dots"></span>Idea of denouncing pleasure & praising</li>
+                                <li><span class="dots"></span>Ever undertakes laborious physical</li>
+                                <li><span class="dots"></span>Avoids a pain that produces no resultant</li>
+                            </ul>
+                            <div class="btn-box"><a href="about.html" class="theme-btn style-nine">Read More</a></div>
+                            <div class="lower-text"><h6><i class="fas fa-angle-right"></i>What You Need? <a href="index-4.html">Meet Our Experts.</a></h6></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about-style-four end -->
+
+
+    <!-- chooseus-style-three -->
+    <section class="chooseus-style-three">
+        <div class="pattern-layer" style="background-image: url(assets_web_profile/images/shape/shape-26.png);"></div>
+        <figure class="image-layer js-tilt"><img src="assets_web_profile/images/resource/illastration-5.png" alt=""></figure>
+        <div class="auto-container">
+            <div class="inner-container">
+                <div class="row clearfix">
+                    <div class="col-xl-4 col-lg-6 col-md-12 inner-column">
+                        <div class="inner-box">
+                            <div class="sec-title text-left">
+                                <p>Why Choose Us</p>
+                                <h2>Reason for choosing</h2>
+                                <div class="decor" style="background-image: url(assets_web_profile/images/icons/decor-1.png);"></div>
+                            </div>
+                            <div class="single-item">
+                                <h3>Value for Results</h3>
+                                <div class="box">
+                                    <div class="icon-box"><i class="flaticon-analysis"></i></div>
+                                    <p>Except to obtain some advantage from who has any right to find.</p>
                                 </div>
-                                <h5>Impressive Works Since 2010</h5>
-                                <a href="about.html"><i class="flaticon-next"></i>More About Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12 inner-column">
+                        <div class="inner-box">
+                            <div class="single-item">
+                                <h3>Global Experience</h3>
+                                <div class="box">
+                                    <div class="icon-box"><i class="flaticon-global"></i></div>
+                                    <p>Nor again is there anyone who loves or pursues or desires</p>
+                                </div>
+                            </div>
+                            <div class="single-item">
+                                <h3>High-Quality Results</h3>
+                                <div class="box">
+                                    <div class="icon-box"><i class="flaticon-medal"></i></div>
+                                    <p>This mistakens idea denouncings and was born complete system.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -405,369 +564,183 @@
             </div>
         </div>
     </section>
-    <!-- about-style-two end -->
+    <!-- chooseus-style-three end -->
 
 
-    <!-- service-style-two -->
-    <section class="service-style-two">
-        <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-13.png);"></div>
-        <figure class="image-layer"><img src="assets/images/resource/illastration-2.png" alt=""></figure>
+    <!-- funfact-style-two -->
+    <section class="funfact-style-two">
         <div class="auto-container">
             <div class="row clearfix">
-                <div class="col-xl-9 col-lg-12 col-md-12 inner-column">
-                    <div class="inner-content">
-                        <div class="sec-title text-center light">
-                            <p>Our Services</p>
-                            <h2>Services we offer for you</h2>
-                            <div class="decor" style="background-image: url(assets/images/icons/decor-4.png);"></div>
+                <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
+                    <div class="counter-block-two wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="count-outer count-box">
+                                <span class="count-text" data-speed="1500" data-stop="3.5">0</span>k
+                            </div>
+                            <h4>Projects Completed</h4>
                         </div>
-                        <div class="service-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
-                            <div class="service-block-two">
-                                <div class="inner-box">
-                                    <div class="text-layer"><h2>Mac</h2></div>
-                                    <div class="icon-box"><i class="flaticon-brain-3"></i></div>
-                                    <h4><a href="service-details.html">Machine Learning</a></h4>
-                                    <p>Simple & easy distinguish in when our power.</p>
-                                    <div class="link"><a href="service-details.html"><i class="flaticon-next"></i>Read More</a></div>
-                                </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
+                    <div class="counter-block-two wow slideInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="count-outer count-box">
+                                <span class="count-text" data-speed="1500" data-stop="2.8">0</span>k
                             </div>
-                            <div class="service-block-two">
-                                <div class="inner-box">
-                                    <div class="text-layer"><h2>Deef</h2></div>
-                                    <div class="icon-box"><i class="flaticon-model"></i></div>
-                                    <h4><a href="service-details.html">Deep Learning</a></h4>
-                                    <p>Therefore always hold these matters to secure.</p>
-                                    <div class="link"><a href="service-details.html"><i class="flaticon-next"></i>Read More</a></div>
-                                </div>
+                            <h4>Industrires Served</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
+                    <div class="counter-block-two wow slideInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="count-outer count-box">
+                                <span class="count-text" data-speed="1500" data-stop="139">0</span>
                             </div>
-                            <div class="service-block-two">
-                                <div class="inner-box">
-                                    <div class="text-layer"><h2>Rre</h2></div>
-                                    <div class="icon-box"><i class="flaticon-cog"></i></div>
-                                    <h4><a href="service-details.html">Predicitive Analysis</a></h4>
-                                    <p>Trouble that bound ensue to equaly blame belongs.</p>
-                                    <div class="link"><a href="service-details.html"><i class="flaticon-next"></i>Read More</a></div>
-                                </div>
+                            <h4>Expert Team Mates</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
+                    <div class="counter-block-two wow slideInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="count-outer count-box">
+                                <span class="count-text" data-speed="1500" data-stop="14">0</span>m
                             </div>
+                            <h4>Happy Customers</h4>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- service-style-two end -->
+    <!-- funfact-style-two end -->
 
 
-    <!-- case-style-two -->
-    <section class="case-style-two">
-        <div class="auto-container">
-            <div class="top-inner clearfix">
-                <div class="sec-title style-two text-left pull-left">
-                    <p>Case Studies</p>
-                    <h2>Latest from our projects</h2>
-                    <div class="decor" style="background-image: url(assets/images/icons/decor-1.png);"></div>
-                </div>
-                <div class="btn-box pull-right">
-                    <a href="project-details.html" class="theme-btn style-five"><i class="flaticon-next"></i>All Projects</a>
-                </div>
-            </div>
-            <div class="three-item-carousel owl-carousel owl-theme owl-nav-none">
-                <div class="case-block-two">
-                    <div class="inner-box">
-                        <figure class="image-box">
-                            <img src="assets/images/gallery/gallery-1.jpg" alt="">
-                            <div class="client-box">
-                                <span>Neuro Jump</span>
-                                <div class="client-logo"><img src="assets/images/icons/icon-1.png" alt=""></div>
-                            </div>
-                            <div class="link"><a href="project-details.html"><i class="flaticon-hyperlink"></i></a></div>
-                            <div class="overlay-layer"></div>
-                        </figure>
-                        <div class="lower-content">
-                            <div class="box">
-                                <div class="icon-box"><i class="flaticon-vision"></i></div>
-                                <p>Banking & Finance</p>
-                                <h4><a href="project-details.html">Invoice data capture</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="case-block-two">
-                    <div class="inner-box">
-                        <figure class="image-box">
-                            <img src="assets/images/gallery/gallery-2.jpg" alt="">
-                            <div class="client-box">
-                                <span>Neuro Jump</span>
-                                <div class="client-logo"><img src="assets/images/icons/icon-2.png" alt=""></div>
-                            </div>
-                            <div class="link"><a href="project-details.html"><i class="flaticon-hyperlink"></i></a></div>
-                            <div class="overlay-layer"></div>
-                        </figure>
-                        <div class="lower-content">
-                            <div class="box">
-                                <div class="icon-box"><i class="flaticon-vision"></i></div>
-                                <p>Entertainment</p>
-                                <h4><a href="project-details.html">Automate feedback analysis</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="case-block-two">
-                    <div class="inner-box">
-                        <figure class="image-box">
-                            <img src="assets/images/gallery/gallery-3.jpg" alt="">
-                            <div class="client-box">
-                                <span>Neuro Jump</span>
-                                <div class="client-logo"><img src="assets/images/icons/icon-3.png" alt=""></div>
-                            </div>
-                            <div class="link"><a href="project-details.html"><i class="flaticon-hyperlink"></i></a></div>
-                            <div class="overlay-layer"></div>
-                        </figure>
-                        <div class="lower-content">
-                            <div class="box">
-                                <div class="icon-box"><i class="flaticon-vision"></i></div>
-                                <p>Healthcare</p>
-                                <h4><a href="project-details.html">Big data processing</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="case-block-two">
-                    <div class="inner-box">
-                        <figure class="image-box">
-                            <img src="assets/images/gallery/gallery-1.jpg" alt="">
-                            <div class="client-box">
-                                <span>Neuro Jump</span>
-                                <div class="client-logo"><img src="assets/images/icons/icon-1.png" alt=""></div>
-                            </div>
-                            <div class="link"><a href="project-details.html"><i class="flaticon-hyperlink"></i></a></div>
-                            <div class="overlay-layer"></div>
-                        </figure>
-                        <div class="lower-content">
-                            <div class="box">
-                                <div class="icon-box"><i class="flaticon-vision"></i></div>
-                                <p>Banking & Finance</p>
-                                <h4><a href="project-details.html">Invoice data capture</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="case-block-two">
-                    <div class="inner-box">
-                        <figure class="image-box">
-                            <img src="assets/images/gallery/gallery-2.jpg" alt="">
-                            <div class="client-box">
-                                <span>Neuro Jump</span>
-                                <div class="client-logo"><img src="assets/images/icons/icon-2.png" alt=""></div>
-                            </div>
-                            <div class="link"><a href="project-details.html"><i class="flaticon-hyperlink"></i></a></div>
-                            <div class="overlay-layer"></div>
-                        </figure>
-                        <div class="lower-content">
-                            <div class="box">
-                                <div class="icon-box"><i class="flaticon-vision"></i></div>
-                                <p>Entertainment</p>
-                                <h4><a href="project-details.html">Automate feedback analysis</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="case-block-two">
-                    <div class="inner-box">
-                        <figure class="image-box">
-                            <img src="assets/images/gallery/gallery-3.jpg" alt="">
-                            <div class="client-box">
-                                <span>Neuro Jump</span>
-                                <div class="client-logo"><img src="assets/images/icons/icon-3.png" alt=""></div>
-                            </div>
-                            <div class="link"><a href="project-details.html"><i class="flaticon-hyperlink"></i></a></div>
-                            <div class="overlay-layer"></div>
-                        </figure>
-                        <div class="lower-content">
-                            <div class="box">
-                                <div class="icon-box"><i class="flaticon-vision"></i></div>
-                                <p>Healthcare</p>
-                                <h4><a href="project-details.html">Big data processing</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="case-block-two">
-                    <div class="inner-box">
-                        <figure class="image-box">
-                            <img src="assets/images/gallery/gallery-1.jpg" alt="">
-                            <div class="client-box">
-                                <span>Neuro Jump</span>
-                                <div class="client-logo"><img src="assets/images/icons/icon-1.png" alt=""></div>
-                            </div>
-                            <div class="link"><a href="project-details.html"><i class="flaticon-hyperlink"></i></a></div>
-                            <div class="overlay-layer"></div>
-                        </figure>
-                        <div class="lower-content">
-                            <div class="box">
-                                <div class="icon-box"><i class="flaticon-vision"></i></div>
-                                <p>Banking & Finance</p>
-                                <h4><a href="project-details.html">Invoice data capture</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="case-block-two">
-                    <div class="inner-box">
-                        <figure class="image-box">
-                            <img src="assets/images/gallery/gallery-2.jpg" alt="">
-                            <div class="client-box">
-                                <span>Neuro Jump</span>
-                                <div class="client-logo"><img src="assets/images/icons/icon-2.png" alt=""></div>
-                            </div>
-                            <div class="link"><a href="project-details.html"><i class="flaticon-hyperlink"></i></a></div>
-                            <div class="overlay-layer"></div>
-                        </figure>
-                        <div class="lower-content">
-                            <div class="box">
-                                <div class="icon-box"><i class="flaticon-vision"></i></div>
-                                <p>Entertainment</p>
-                                <h4><a href="project-details.html">Automate feedback analysis</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="case-block-two">
-                    <div class="inner-box">
-                        <figure class="image-box">
-                            <img src="assets/images/gallery/gallery-3.jpg" alt="">
-                            <div class="client-box">
-                                <span>Neuro Jump</span>
-                                <div class="client-logo"><img src="assets/images/icons/icon-3.png" alt=""></div>
-                            </div>
-                            <div class="link"><a href="project-details.html"><i class="flaticon-hyperlink"></i></a></div>
-                            <div class="overlay-layer"></div>
-                        </figure>
-                        <div class="lower-content">
-                            <div class="box">
-                                <div class="icon-box"><i class="flaticon-vision"></i></div>
-                                <p>Healthcare</p>
-                                <h4><a href="project-details.html">Big data processing</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- skills-style-two -->
+    <section class="skills-style-two">
+        <div class="pattern-layer" style="background-image: url(assets_web_profile/images/shape/shape-27.png);"></div>
+        <div class="anim-icon">
+            <span class="icon icon-1" style="background-image: url(assets_web_profile/images/icons/anim-icon-1.png);"></span>
         </div>
-    </section>
-    <!-- case-style-two end -->
-
-
-    <!-- process-style-two -->
-    <section class="process-style-two" style="background-image: url(assets/images/background/process-bg-1.jpg);">
         <div class="auto-container">
-            <div class="sec-title text-center style-two">
-                <p>Our Work Process</p>
-                <h2>Simple & clean work process</h2>
-                <div class="decor" style="background-image: url(assets/images/icons/decor-1.png);"></div>
-            </div>
-            <div class="inner-content">
-                <div class="line" style="background-image: url(assets/images/icons/line-1.png);"></div>
-                <div class="row clearfix">
-                    <div class="col-lg-4 col-md-6 col-sm-12 work-block">
-                        <div class="work-block-two">
-                            <div class="inner-box">
-                                <div class="arrow-box" style="background-image: url(assets/images/icons/arrow-1.png);"></div>
-                                <div class="icon-box">
-                                    <div class="border-line" style="background-image: url(assets/images/icons/border-1.png);"></div>
-                                    <i class="flaticon-big-data"></i>
-                                </div>
-                                <div class="count-box wow zoomIn animated" data-wow-delay="00ms" data-wow-duration="1500ms"><span>01</span></div>
-                                <div class="content-box wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <h4><a href="index-2.html">Frame the Problem</a></h4>
-                                    <p>To take a trivial example, which idea of ever undertakes.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 work-block">
-                        <div class="work-block-two">
-                            <div class="inner-box">
-                                <div class="arrow-box" style="background-image: url(assets/images/icons/arrow-1.png);"></div>
-                                <div class="icon-box">
-                                    <div class="border-line" style="background-image: url(assets/images/icons/border-1.png);"></div>
-                                    <i class="flaticon-ui"></i>
-                                </div>
-                                <div class="count-box wow zoomIn animated" data-wow-delay="200ms" data-wow-duration="1500ms"><span>02</span></div>
-                                <div class="content-box wow slideInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                    <h4><a href="index-2.html">Collect the Data</a></h4>
-                                    <p>Best every pleasure is too welcomed every pain avoided.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 work-block">
-                        <div class="work-block-two">
-                            <div class="inner-box">
-                                <div class="icon-box">
-                                    <div class="border-line" style="background-image: url(assets/images/icons/border-1.png);"></div>
-                                    <i class="flaticon-brain"></i>
-                                </div>
-                                <div class="count-box wow zoomIn animated" data-wow-delay="400ms" data-wow-duration="1500ms"><span>03</span></div>
-                                <div class="content-box wow slideInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                    <h4><a href="index-2.html">Process the Data</a></h4>
-                                    <p>Have to be repudiated annoyances accepted the wise.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="more-btn wow slideInUp" data-wow-delay="400ms" data-wow-duration="1500ms"><a href="index-2.html" class="theme-btn style-five"><i class="flaticon-next"></i>Get Started</a></div>
-            </div>
-        </div>
-    </section>
-    <!-- process-style-two end -->
-
-
-    <!-- chooseus-section -->
-    <section class="chooseus-section">
-        <div class="auto-container">
-            <div class="sec-title text-center style-two">
-                <p>Why Choose Us</p>
-                <h2>Reason for people choose us</h2>
-                <div class="decor" style="background-image: url(assets/images/icons/decor-1.png);"></div>
-            </div>
             <div class="row clearfix">
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                    <div id="content_block_04">
+                    <div id="content_block_02">
                         <div class="content-box">
-                            <div class="single-item">
-                                <div class="icon-box">
-                                    <div class="bg-layer" style="background-image: url(assets/images/icons/icon-bg-4.png);"></div>
-                                    <i class="flaticon-global"></i>
-                                </div>
-                                <div class="box">
-                                    <h4>Global Experience</h4>
-                                    <p>Nor again is there anyone who loves or pursues pain of itself, because circumstances.</p>
-                                    <a href="index-2.html"><i class="fas fa-arrow-right"></i>More Details</a>
-                                </div>
+                            <div class="sec-title text-left">
+                                <p>Skills & Facts</p>
+                                <h2>We keep our self updated with latest trends</h2>
+                                <div class="decor" style="background-image: url(assets_web_profile/images/icons/decor-1.png);"></div>
                             </div>
-                            <div class="single-item text-right">
-                                <div class="icon-box">
-                                    <div class="bg-layer" style="background-image: url(assets/images/icons/icon-bg-4.png);"></div>
-                                    <i class="flaticon-analysis"></i>
+                            <div class="text">
+                                <p>As a solution providing company we offer a  range consulting, development quality testing services with 100% satisfaction.</p>
+                            </div>
+                            <div class="inner-box">
+                                <div class="progress-box">
+                                    <h5>Data Consulting</h5>
+                                    <div class="icon-box"><i class="flaticon-chat"></i></div>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="62%"><div class="count-text">62%</div></div>
+                                    </div>
                                 </div>
-                                <div class="box">
-                                    <h4>Value for Results</h4>
-                                    <p>Except obtain some advantages from ithas any to find fault with a consequences.</p>
-                                    <a href="index-2.html">More Details<i class="fas fa-arrow-left"></i></a>
+                                <div class="progress-box">
+                                    <h5>Big Data & BI</h5>
+                                    <div class="icon-box"><i class="flaticon-cloud-computing"></i></div>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="89%"><div class="count-text">89%</div></div>
+                                    </div>
+                                </div>
+                                <div class="progress-box">
+                                    <h5>Predictive Analysis</h5>
+                                    <div class="icon-box"><i class="flaticon-analysis-1"></i></div>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="75%"><div class="count-text">75%</div></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 video-column">
-                    <div id="video_block_01">
-                        <div class="video-inner wow slideInRight" data-wow-delay="00ms" data-wow-duration="1500ms" style="background-image: url(assets/images/background/video-2.jpg);">
-                            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-14.png);"></div>
-                            <div class="video-btn">
-                                <div class="btn-bg rotate-me" style="background-image: url(assets/images/icons/icon-bg-5.png);"></div>
-                                <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="lightbox-image" data-caption=""><i class="fas fa-play"></i></a>
+                <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <div class="image-box wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="image-bg" style="background-image: url(assets_web_profile/images/shape/shape-28.png);"></div>
+                        <figure class="image js-tilt"><img src="assets_web_profile/images/resource/screen-4.png" alt=""></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills-style-two end -->
+
+
+    <!-- testimonial-style-four -->
+    <section class="testimonial-style-four">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <p>Testimonials</p>
+                <h2>What say our clients about our<br />awesome service</h2>
+                <div class="decor" style="background-image: url(assets_web_profile/images/icons/decor-1.png);"></div>
+            </div>
+            <div class="inner-container">
+                <div class="testimonial-carousel-3 owl-carousel owl-theme owl-dots-none">
+                    <div class="testimonial-content">
+                        <div class="inner-box">
+                            <div class="upper-box">
+                                <figure class="logo-box"><img src="assets_web_profile/images/resource/testimonial-logo-1.png" alt=""></figure>
+                                <p>Your guys were well knowledgeable, experienced, efficient and neat. A true to work with Windtech.</p>
+                                <ul class="rating clearfix">
+                                    <li><i class="flaticon-stars"></i></li>
+                                    <li><i class="flaticon-stars"></i></li>
+                                    <li><i class="flaticon-stars"></i></li>
+                                    <li><i class="flaticon-stars"></i></li>
+                                    <li><i class="flaticon-stars"></i></li>
+                                </ul>
+                            </div>
+                            <div class="author-info">
+                                <figure class="image-box"><img src="assets_web_profile/images/resource/testimonial-5.png" alt=""></figure>
+                                <h4>Shelly Johnson</h4>
+                                <span class="designation">California</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="inner-box">
+                            <div class="upper-box">
+                                <figure class="logo-box"><img src="assets_web_profile/images/resource/testimonial-logo-2.png" alt=""></figure>
+                                <p>Blinded by desire that they foresee all pain and trouble that are bound ensue and equal blame belongs.</p>
+                                <ul class="rating clearfix">
+                                    <li><i class="flaticon-stars"></i></li>
+                                    <li><i class="flaticon-stars"></i></li>
+                                    <li><i class="flaticon-stars"></i></li>
+                                    <li><i class="flaticon-stars"></i></li>
+                                    <li><i class="flaticon-stars"></i></li>
+                                </ul>
+                            </div>
+                            <div class="author-info">
+                                <figure class="image-box"><img src="assets_web_profile/images/resource/testimonial-6.png" alt=""></figure>
+                                <h4>Cathrine Wagner</h4>
+                                <span class="designation">Los Angeles</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="inner-box">
+                            <div class="upper-box">
+                                <figure class="logo-box"><img src="assets_web_profile/images/resource/testimonial-logo-3.png" alt=""></figure>
+                                <p>Power of choice is untrammelled and when nothing prevents our being to do what we like best.</p>
+                                <ul class="rating clearfix">
+                                    <li><i class="flaticon-stars"></i></li>
+                                    <li><i class="flaticon-stars"></i></li>
+                                    <li><i class="flaticon-stars"></i></li>
+                                    <li><i class="flaticon-stars"></i></li>
+                                    <li><i class="flaticon-stars"></i></li>
+                                </ul>
+                            </div>
+                            <div class="author-info">
+                                <figure class="image-box"><img src="assets_web_profile/images/resource/testimonial-7.png" alt=""></figure>
+                                <h4>Cuthbert Brain</h4>
+                                <span class="designation">California</span>
                             </div>
                         </div>
                     </div>
@@ -775,93 +748,70 @@
             </div>
         </div>
     </section>
-    <!-- chooseus-section end -->
+    <!-- testimonial-style-four end -->
 
 
-    <!-- testimonial-style-two -->
-    <section class="testimonial-style-two">
-        <div class="title-inner bg-color-3">
-            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-15.png);"></div>
-            <div class="auto-container">
-                <div class="sec-title text-left light">
-                    <p>Testimonials</p>
-                    <h2>Words from our clients</h2>
-                    <div class="decor" style="background-image: url(assets/images/icons/decor-4.png);"></div>
-                </div>
-            </div>
+    <!-- subscribe-section -->
+    <section class="subscribe-section">
+        <div class="pattern-layer">
+            <div class="pattern-1" style="background-image: url(assets_web_profile/images/shape/shape-29.png);"></div>
+            <div class="pattern-2" style="background-image: url(assets_web_profile/images/shape/shape-30.png);"></div>
         </div>
-        <div class="lower-content">
-            <div class="auto-container">
-                <div class="inner-content">
-                    <div class="testimonial-carousel-2 owl-carousel owl-theme owl-dots-none nav-style-one">
-                        <div class="testimonial-content">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="icon-box" style="background-image: url(assets/images/icons/icon-4.png);"></div>
-                                    <div class="text">
-                                        <p>As a growing company, we found in Naxly expertise in data science invaluble In almost two years of cooperation, they’ve helped us.</p>
-                                    </div>
-                                    <div class="author-info">
-                                        <h4>Dedrew Kowzel</h4>
-                                        <span class="designation">CEO & Founder - Soft Solution</span>
-                                    </div>
-                                </div>
+        <figure class="image-layer float-bob-y"><img src="assets_web_profile/images/resource/laptop-1.png" alt=""></figure>
+        <div class="auto-container">
+            <div class="sec-title text-center light">
+                <p>Subscribe Us</p>
+                <h2>Join with our global community</h2>
+                <div class="decor" style="background-image: url(assets_web_profile/images/icons/decor-6.png);"></div>
+            </div>
+            <div class="inner-box text-center">
+                <ul class="link-box clearfix">
+                    <li><a href="index-4.html"><i class="flaticon-next"></i>Exclusive Offers & Discount</a></li>
+                    <li><a href="index-4.html"><i class="flaticon-next"></i>Expert Advice & Tutorial</a></li>
+                    <li><a href="index-4.html"><i class="flaticon-next"></i>Regular Updates in Inbox</a></li>
+                </ul>
+                <div class="subscribe-form">
+                    <form action="index-4.html" method="post">
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email Address..." required="">
+                            <button type="submit" class="theme-btn style-nine"><i class="flaticon-next"></i></button>
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-controls-stacked">
+                                <label class="custom-control material-checkbox">
+                                <input type="checkbox" class="material-control-input">
+                                <span class="material-control-indicator"></span>
+                                <span class="description">accept naxly private policy</span>
                             </div>
                         </div>
-                        <div class="testimonial-content">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/resource/testimonial-2.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="icon-box" style="background-image: url(assets/images/icons/icon-4.png);"></div>
-                                    <div class="text">
-                                        <p>As a growing company, we found in Naxly expertise in data science invaluble In almost two years of cooperation, they’ve helped us.</p>
-                                    </div>
-                                    <div class="author-info">
-                                        <h4>Donal Archar</h4>
-                                        <span class="designation">CEO & Founder - Soft Solution</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial-content">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/resource/testimonial-3.jpg" alt=""></figure>
-                                <div class="content-box">
-                                    <div class="icon-box" style="background-image: url(assets/images/icons/icon-4.png);"></div>
-                                    <div class="text">
-                                        <p>As a growing company, we found in Naxly expertise in data science invaluble In almost two years of cooperation, they’ve helped us.</p>
-                                    </div>
-                                    <div class="author-info">
-                                        <h4>Jams Shan</h4>
-                                        <span class="designation">CEO & Founder - Soft Solution</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
-    <!-- testimonial-style-two end -->
+    <!-- subscribe-section end -->
 
 
     <!-- news-section -->
-    <section class="news-section style-two">
+    <section class="news-section style-four">
         <div class="auto-container">
-            <div class="sec-title text-center style-two mb-60">
-                <p>News & Updates</p>
-                <h2>Latest thinking in AI and our<br />company news</h2>
-                <div class="decor" style="background-image: url(assets/images/icons/decor-1.png);"></div>
+            <div class="upper-box clearfix mb-40">
+                <div class="sec-title text-left pull-left">
+                    <p>News & Updates</p>
+                    <h2>Company news & updates</h2>
+                    <div class="decor" style="background-image: url(assets_web_profile/images/icons/decor-1.png);"></div>
+                </div>
+                <div class="btn-box pull-right mt-60">
+                    <a href="blog-1.html" class="theme-btn style-nine">Read More</a>
+                </div>
             </div>
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="assets/images/news/news-1.jpg" alt="">
-                                <a href="assets/images/news/news-1.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom"></i></a>
+                                <img src="assets_web_profile/images/news/news-1.jpg" alt="">
+                                <a href="assets_web_profile/images/news/news-1.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom"></i></a>
                             </figure>
                             <div class="lower-content">
                                 <div class="file-box"><i class="far fa-folder-open"></i><p>Data Engineering</p></div>
@@ -869,7 +819,7 @@
                                     <div class="post-date"><p>05</p><span>Jan</span></div>
                                     <h4><a href="blog-details.html">Naxly Named as a Global Leader in Big Data</a></h4>
                                 </div>
-                                <div class="link"><a href="blog-details.html"><i class="flaticon-next"></i>More Details</a></div>
+                                <div class="link"><a href="blog-details.html">Read More<i class="fas fa-angle-right"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -878,8 +828,8 @@
                     <div class="news-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="assets/images/news/news-4.jpg" alt="">
-                                <a href="assets/images/news/news-4.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom"></i></a>
+                                <img src="assets_web_profile/images/news/news-4.jpg" alt="">
+                                <a href="assets_web_profile/images/news/news-4.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom"></i></a>
                             </figure>
                             <div class="lower-content">
                                 <div class="file-box"><i class="far fa-folder-open"></i><p>ML Consulting</p></div>
@@ -887,7 +837,7 @@
                                     <div class="post-date"><p>01</p><span>Jan</span></div>
                                     <h4><a href="blog-details.html">The Current State of Artificial Intelligence Infographic.</a></h4>
                                 </div>
-                                <div class="link"><a href="blog-details.html"><i class="flaticon-next"></i>More Details</a></div>
+                                <div class="link"><a href="blog-details.html">Read More<i class="fas fa-angle-right"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -896,8 +846,8 @@
                     <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box">
-                                <img src="assets/images/news/news-5.jpg" alt="">
-                                <a href="assets/images/news/news-5.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom"></i></a>
+                                <img src="assets_web_profile/images/news/news-5.jpg" alt="">
+                                <a href="assets_web_profile/images/news/news-5.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom"></i></a>
                             </figure>
                             <div class="lower-content">
                                 <div class="file-box"><i class="far fa-folder-open"></i><p>Data Strategy</p></div>
@@ -905,7 +855,7 @@
                                     <div class="post-date"><p>25</p><span>Dec</span></div>
                                     <h4><a href="blog-details.html">Naxly as the Winners in Global Agency Awards</a></h4>
                                 </div>
-                                <div class="link"><a href="blog-details.html"><i class="flaticon-next"></i>More Details</a></div>
+                                <div class="link"><a href="blog-details.html">Read More<i class="fas fa-angle-right"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -916,200 +866,114 @@
     <!-- news-section end -->
 
 
-    <!-- clients-style-two -->
-    <section class="clients-style-two bg-color-1">
-        <div class="pattern-layer">
-            <div class="pattern-1" style="background-image: url(assets/images/shape/shape-16.png);"></div>
-            <div class="pattern-2 wow slideInRight" data-wow-delay="00ms" data-wow-duration="1500ms" style="background-image: url(assets/images/shape/shape-17.png);"></div>
-        </div>
+    <!-- contact-section -->
+    <section class="contact-section">
         <div class="auto-container">
-            <div class="sec-title text-center style-two mb-70">
-                <p>Clients</p>
-                <h2>Latest thinking in AI and our</h2>
-                <div class="decor" style="background-image: url(assets/images/icons/decor-1.png);"></div>
-            </div>
-            <div class="logo-inner">
-                <ul class="logo-box logo-box-one clearfix">
-                    <li><figure class="image-box"><a href="index.html"><img src="assets/images/clients/clients-logo-6.png" alt=""></a></figure></li>
-                    <li><figure class="image-box"><a href="index.html"><img src="assets/images/clients/clients-logo-7.png" alt=""></a></figure></li>
-                    <li><figure class="image-box"><a href="index.html"><img src="assets/images/clients/clients-logo-8.png" alt=""></a></figure></li>
-                    <li><figure class="image-box"><a href="index.html"><img src="assets/images/clients/clients-logo-9.png" alt=""></a></figure></li>
-                </ul>
-                <ul class="logo-box logo-box-two clearfix">
-                    <li><figure class="image-box"><a href="index.html"><img src="assets/images/clients/clients-logo-10.png" alt=""></a></figure></li>
-                    <li><figure class="image-box"><a href="index.html"><img src="assets/images/clients/clients-logo-11.png" alt=""></a></figure></li>
-                    <li><figure class="image-box"><a href="index.html"><img src="assets/images/clients/clients-logo-12.png" alt=""></a></figure></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- clients-style-two end -->
-
-
-    <!-- info-section -->
-    <section class="info-section">
-        <div class="auto-container">
-            <div class="inner-container">
-                <div class="info-inner">
-                    <div class="row clearfix">
-                        <div class="col-lg-4 col-md-6 col-sm-12 info-column">
-                            <div class="info-box">
-                                <div class="hidden-icon"><i class="flaticon-pin"></i></div>
-                                <div class="box">
-                                    <div class="icon-box"><i class="flaticon-pin"></i></div>
-                                    <h4>Location</h4>
-                                    <span>Visit to explore the world</span>
+            <div class="row clearfix">
+                <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                    <div id="content_block_09">
+                        <div class="content-box">
+                            <form method="post" action="assets_web_profile/inc/sendemail.php" id="contact-form" class="default-form"> 
+                                <div class="form-group">
+                                    <label><i class="far fa-user"></i>Your Name</label>
+                                    <input type="text" name="username" placeholder="Enter name here" required="">
                                 </div>
-                                <div class="text">
-                                    <p>124, Queens walk 2nd cross<br />newyork 5241.</p>
+                                <div class="form-group">
+                                    <label><i class="far fa-envelope"></i>Email Address</label>
+                                    <input type="email" name="email" placeholder="Email Address" required="">
                                 </div>
-                            </div>
+                                <div class="form-group">
+                                    <label><i class="far fa-user"></i>Subject</label>
+                                    <input type="text" name="subject" placeholder="Subject" required="">
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fas fa-text-height"></i>Message</label>
+                                    <textarea name="message" placeholder="Message goes here"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button class="theme-btn style-nine" type="submit" name="submit-form">Send Your Message</button>
+                                </div>
+                            </form>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 info-column">
-                            <div class="info-box">
-                                <div class="hidden-icon"><i class="flaticon-music"></i></div>
-                                <div class="box">
-                                    <div class="icon-box"><i class="flaticon-music"></i></div>
-                                    <h4>Make a Call</h4>
-                                    <span>Let’s talk with our experts</span>
-                                </div>
-                                <div class="text">
-                                    <p><a href="tel:4455567890">+44 555 67 890</a></p>
-                                    <p>Mon - Fri: 09.00 to 18.00</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12 info-column">
-                            <div class="info-box">
-                                <div class="hidden-icon"><i class="flaticon-gmail"></i></div>
-                                <div class="box">
-                                    <div class="icon-box"><i class="flaticon-gmail"></i></div>
-                                    <h4>Send a Mail</h4>
-                                    <span>Dont’s hesitate to mail</span>
-                                </div>
-                                <div class="text">
-                                    <p><a href="mailto:career@example.com">career@example.com</a></p>
-                                    <p><a href="mailto:info@example.com">info@example.com</a></p>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <div class="image-box wow slideInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <figure class="image js-tilt"><img src="assets_web_profile/images/resource/illastration-6.png" alt=""></figure>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- info-section end -->
+    <!-- contact-section end -->
 
 
-    <!-- footer-style-two -->
-    <footer class="footer-style-two bg-color-3">
+    <!-- footer-style-four -->
+    <footer class="footer-style-four">
+        <div class="pattern-layer" style="background-image: url(assets_web_profile/images/shape/shape-31.png);"></div>
+        <div class="anim-icon">
+            <span class="icon icon-4" style="background-image: url(assets_web_profile/images/icons/anim-icon-10.png);"></span>
+            <span class="icon icon-5" style="background-image: url(assets_web_profile/images/icons/anim-icon-11.png);"></span>
+            <span class="icon icon-6" style="background-image: url(assets_web_profile/images/icons/anim-icon-12.png);"></span>
+        </div>
         <div class="auto-container">
             <div class="footer-top">
                 <div class="widget-section">
                     <div class="row clearfix">
-                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget logo-widget">
+                                <figure class="footer-logo"><a href="index.html"><img src="assets_web_profile/images/footer-logo-4.png" alt=""></a></figure>
+                                <div class="copyright">
+                                    <p>Copyright &nbsp; <a href="index.html">Naxly</a>, All Rights Reserved.</p>
+                                </div>
+                                <ul class="social-links clearfix">
+                                    <li><a href="index-4.html"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="index-4.html"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="index-4.html"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="index-4.html"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget contact-widget">
+                                <div class="widget-title">
+                                    <h3>Contact</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="info-list clearfix">
+                                        <li><i class="flaticon-music"></i><a href="tel:0055567890">+00 555 67 890</a></li>
+                                        <li><i class="flaticon-gmail"></i><a href="mailto:info@example.com">info@example.com</a></li>
+                                        <li><i class="flaticon-world"></i>124, Queens walk 2nd cross newyork 5241</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget links-widget">
                                 <div class="widget-title">
-                                    <h3>Company</h3>
+                                    <h3>Info</h3>
                                 </div>
                                 <div class="widget-content">
-                                    <div class="row clearfix">
-                                        <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                            <ul class="links clearfix">
-                                                <li><a href="index.html">About Us</a></li>
-                                                <li><a href="index.html">Projects</a></li>
-                                                <li><a href="index.html">Services</a></li>
-                                                <li><a href="index.html">Faq’s</a></li>
-                                                <li><a href="index.html">Updates</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12 column">
-                                            <ul class="links clearfix">
-                                                <li><a href="index.html">Naxly</a></li>
-                                                <li><a href="index.html">Data Science</a></li>
-                                                <li><a href="index.html">Artificial Intelligence</a></li>
-                                                <li><a href="index.html">Machine Learning</a></li>
-                                                <li><a href="index.html">Get In Touch</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                    <ul class="clearfix">
+                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>About Us</a></li>
+                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>Projects</a></li>
+                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>Services</a></li>
+                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>Faq’s</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget post-widget">
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget links-widget">
                                 <div class="widget-title">
-                                    <h3>Trending Post</h3>
+                                    <h3>Services</h3>
                                 </div>
                                 <div class="widget-content">
-                                    <div class="post">
-                                        <div class="post-date"><p>05</p><span>Jan</span></div>
-                                        <div class="file-box"><i class="far fa-folder-open"></i><p>Data Engineering</p></div>
-                                        <h5><a href="blog-details.html">Naxly Named as a Global Leader in Big Data</a></h5>
-                                    </div>
-                                    <div class="post">
-                                        <div class="post-date"><p>30</p><span>Dec</span></div>
-                                        <div class="file-box"><i class="far fa-folder-open"></i><p>Data Strategy</p></div>
-                                        <h5><a href="blog-details.html">Naxly as the Winners in Global Agency Awards</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget gallery-widget">
-                                <div class="widget-title">
-                                    <h3>Latest Works</h3>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="list clearfix">
-                                        <li>
-                                            <figure class="image-box">
-                                                <img src="assets/images/resource/footer-1.jpg" alt="">
-                                                <a href="project-details.html"><i class="flaticon-hyperlink"></i></a>
-                                            </figure>
-                                        </li>
-                                        <li>
-                                            <figure class="image-box">
-                                                <img src="assets/images/resource/footer-2.jpg" alt="">
-                                                <a href="project-details.html"><i class="flaticon-hyperlink"></i></a>
-                                            </figure>
-                                        </li>
-                                        <li>
-                                            <figure class="image-box">
-                                                <img src="assets/images/resource/footer-3.jpg" alt="">
-                                                <a href="project-details.html"><i class="flaticon-hyperlink"></i></a>
-                                            </figure>
-                                        </li>
-                                        <li>
-                                            <figure class="image-box">
-                                                <img src="assets/images/resource/footer-4.jpg" alt="">
-                                                <a href="project-details.html"><i class="flaticon-hyperlink"></i></a>
-                                            </figure>
-                                        </li>
-                                        <li>
-                                            <figure class="image-box">
-                                                <img src="assets/images/resource/footer-5.jpg" alt="">
-                                                <a href="project-details.html"><i class="flaticon-hyperlink"></i></a>
-                                            </figure>
-                                        </li>
-                                        <li>
-                                            <figure class="image-box">
-                                                <img src="assets/images/resource/footer-6.jpg" alt="">
-                                                <a href="project-details.html"><i class="flaticon-hyperlink"></i></a>
-                                            </figure>
-                                        </li>
-                                        <li>
-                                            <figure class="image-box">
-                                                <img src="assets/images/resource/footer-7.jpg" alt="">
-                                                <a href="project-details.html"><i class="flaticon-hyperlink"></i></a>
-                                            </figure>
-                                        </li>
-                                        <li>
-                                            <figure class="image-box">
-                                                <img src="assets/images/resource/footer-8.jpg" alt="">
-                                                <a href="project-details.html"><i class="flaticon-hyperlink"></i></a>
-                                            </figure>
-                                        </li>
+                                    <ul class="clearfix">
+                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>Individual</a></li>
+                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>Team</a></li>
+                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>Embeded</a></li>
+                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>Embeded</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1118,13 +982,7 @@
                 </div>
             </div>
             <div class="footer-bottom clearfix">
-                <div class="left-column pull-left">
-                    <div class="copyright">
-                        <p>Copyright &copy; <a href="index.html">Naxly</a>, All Rights Reserved.</p>
-                    </div>
-                    <figure class="footer-logo"><a href="index-2.html"><img src="assets/images/footer-logo-2.png" alt=""></a></figure>
-                </div>
-                <div class="right-column pull-right">
+                <div class="right-column">
                     <ul class="footer-nav">
                         <li><a href="index.html">Privacy Policy</a></li>
                         <li><a href="index.html">Terms & Conditions</a></li>
@@ -1133,7 +991,7 @@
             </div>
         </div>
     </footer>
-    <!-- footer-style-two end -->
+    <!-- footer-style-four end -->
 
 
 <!--Scroll to top-->
@@ -1141,10 +999,7 @@
     <span class="fas fa-angle-up"></span>
 </button>
 
-
-<!-- Script -->
 @include('layouts.web_profile.partials.__script')
-<!-- End Script -->
 
-</body><!-- End of .page_wrapper -->
+</body>
 </html>
