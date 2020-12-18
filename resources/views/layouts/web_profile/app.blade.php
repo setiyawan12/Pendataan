@@ -97,148 +97,6 @@
                             <i class="icon-bar"></i>
                             <i class="icon-bar"></i>
                         </div>
-                        <nav class="main-menu navbar-expand-md navbar-light">
-                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a href="index-4.html">Home</a>
-                                        <ul>
-                                            <li><a href="#">Data Science<i class="flaticon-next"></i></a></li>
-                                            <li><a href="#">Artificial intelligence<i class="flaticon-next"></i></a></li>
-                                            <li><a href="#">Machine Learning<i class="flaticon-next"></i></a></li>
-                                            <li><a href="#">Business Intelligence<i class="flaticon-next"></i></a></li>
-                                            <li><a href="#">User Analysis<i class="flaticon-next"></i></a></li>
-                                            <li><a href="#">Home Boxed<i class="flaticon-next"></i></a></li>
-                                            <li><a href="#">Home RTL<i class="flaticon-next"></i></a></li>
-                                            <li><a href="#">Home OnePage<i class="flaticon-next"></i></a></li>
-                                            <li class="dropdown"><a href="index-4.html">Header Styles</a>
-                                                <ul>
-                                                    <li><a href="index.html">Header Style One<i class="flaticon-next"></i></a></li>
-                                                    <li><a href="index-2.html">Header Style Two<i class="flaticon-next"></i></a></li>
-                                                    <li><a href="index-3.html">Header Style Three<i class="flaticon-next"></i></a></li>
-                                                    <li><a href="index-4.html">Header Style Four<i class="flaticon-next"></i></a></li>
-                                                    <li><a href="index-5.html">Header Style Five<i class="flaticon-next"></i></a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li> 
-                                    <li class="dropdown"><a href="index-4.html">Company</a>
-                                        <ul>
-                                            <li><a href="about.html">About Company<i class="flaticon-next"></i></a></li>
-                                            <li><a href="team.html">Meet Our Team<i class="flaticon-next"></i></a></li>
-                                            <li><a href="contact.html">Contact Us<i class="flaticon-next"></i></a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="index-4.html">Services</a>
-                                        <ul>
-                                            <li><a href="service.html">All Services<i class="flaticon-next"></i></a></li>
-                                            <li><a href="service-details.html">Service Details<i class="flaticon-next"></i></a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="index-4.html">Works</a>
-                                        <ul>
-                                            <li><a href="project.html">Project 2 Columns<i class="flaticon-next"></i></a></li>
-                                            <li><a href="project-2.html">Project 3 Columns<i class="flaticon-next"></i></a></li>
-                                            <li><a href="project-3.html">Case Studies<i class="flaticon-next"></i></a></li>
-                                            <li><a href="project-details.html">Case Details<i class="flaticon-next"></i></a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="index-4.html">Blog</a>
-                                        <ul>
-                                            <li><a href="blog-1.html">Classic Grid<i class="flaticon-next"></i></a></li>
-                                            <li><a href="blog-2.html">Classic With S/B<i class="flaticon-next"></i></a></li>
-                                            <li><a href="blog-3.html">Modern With S/B<i class="flaticon-next"></i></a></li>
-                                            <li><a href="blog-4.html">Masonry<i class="flaticon-next"></i></a></li>
-                                            <li><a href="blog-details.html">Single Post<i class="flaticon-next"></i></a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="index-4.html">Elements</a>
-                                        <div class="megamenu">
-                                            <div class="row clearfix">
-                                                <div class="col-lg-3 column">
-                                                    <ul>
-                                                        <li><h4>Elements 1</h4></li>
-                                                        <li><a href="service-element-1.html">Service 01</a></li>
-                                                        <li><a href="service-element-2.html">Service 02</a></li>
-                                                        <li><a href="about-element-1.html">About 01</a></li>
-                                                        <li><a href="about-element-2.html">About 02</a></li>
-                                                        <li><a href="about-element-3.html">About 03</a></li>
-                                                        <li><a href="about-element-4.html">About 04</a></li>
-                                                        <li><a href="about-element-5.html">About 05</a></li>
-                                                        <li><a href="about-element-6.html">About 06</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-lg-3 column">
-                                                    <ul>
-                                                        <li><h4>Elements 2</h4></li>
-                                                        <li><a href="work-element-1.html">Work 01</a></li>
-                                                        <li><a href="work-element-2.html">Work 02</a></li>
-                                                        <li><a href="skills-element-1.html">Skills 01</a></li>
-                                                        <li><a href="skills-element-2.html">Skills 02</a></li>
-                                                        <li><a href="case-element-1.html">Case 01</a></li>
-                                                        <li><a href="case-element-2.html">Case 02</a></li>
-                                                        <li><a href="case-element-3.html">Case 03</a></li>
-                                                        <li><a href="case-element-4.html">Case 04</a></li>
-                                                    </ul>
-                                                </div> 
-                                                <div class="col-lg-3 column">
-                                                    <ul>
-                                                        <li><h4>Elements 3</h4></li>
-                                                        <li><a href="counter-element-1.html">Fun Fact 01</a></li>
-                                                        <li><a href="counter-element-2.html">Fun Fact 02</a></li>
-                                                        <li><a href="counter-element-3.html">Fun Fact 03</a></li>
-                                                        <li><a href="counter-element-4.html">Fun Fact 04</a></li>
-                                                        <li><a href="news-element-1.html">News 01</a></li>
-                                                        <li><a href="news-element-2.html">News 02</a></li>
-                                                        <li><a href="news-element-3.html">News 03</a></li>
-                                                        <li><a href="news-element-4.html">News 04</a></li>
-                                                    </ul>
-                                                </div> 
-                                                <div class="col-lg-3 column">
-                                                    <ul>
-                                                        <li><h4>Elements 4</h4></li>
-                                                        <li><a href="choose-element-1.html">Choose Us 01</a></li>
-                                                        <li><a href="choose-element-2.html">Choose Us 02</a></li>
-                                                        <li><a href="choose-element-3.html">Choose Us 03</a></li>
-                                                        <li><a href="team-element-1.html">Team 01</a></li>
-                                                        <li><a href="team-element-2.html">Team 02</a></li>
-                                                        <li><a href="team-element-3.html">Team 03</a></li>
-                                                        <li><a href="team-element-4.html">Team 04</a></li>
-                                                        <li><a href="technology-element-1.html">Technology</a></li>
-                                                    </ul>
-                                                </div>                                            
-                                            </div>                                                
-                                        </div>
-                                    </li>
-                                    <li class="dropdown"><a href="index-4.html">Pages</a>
-                                        <ul>
-                                            <li><a href="error.html">404<i class="flaticon-next"></i></a></li>
-                                            <li><a href="coming-soon.html">Coming Soon<i class="flaticon-next"></i></a></li>
-                                            <li><a href="faq.html">Faq’s<i class="flaticon-next"></i></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                        <div class="menu-right-content clearfix">
-                            <ul class="social-links clearfix">
-                                <li><a href="index-4.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index-4.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="index-4.html"><i class="fab fa-google-plus-g"></i></a></li>
-                            </ul>
-                            <div class="language">
-                                <div class="lang-btn">
-                                    <span class="flag"><img src="assets_web_profile/images/icons/icon-lang-2.png" alt="" title="English"></span>
-                                </div>
-                                <div class="lang-dropdown">
-                                    <ul>
-                                        <li><a href="index.html">German</a></li>
-                                        <li><a href="index.html">Italian</a></li>
-                                        <li><a href="index.html">Chinese</a></li>
-                                        <li><a href="index.html">Russian</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -248,31 +106,6 @@
         <div class="sticky-header">
             <div class="auto-container clearfix">
                 <figure class="logo-box"><a href="index.html"><img src="assets_web_profile/images/logo-4.png" alt=""></a></figure>
-                <div class="menu-area clearfix">
-                    <nav class="main-menu clearfix">
-                        <!--Keep This Empty / Menu will come through Javascript-->
-                    </nav>
-                    <div class="menu-right-content clearfix">
-                        <ul class="social-links clearfix">
-                            <li><a href="index-4.html"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="index-4.html"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="index-4.html"><i class="fab fa-google-plus-g"></i></a></li>
-                        </ul>
-                        <div class="language">
-                            <div class="lang-btn">
-                                <span class="flag"><img src="assets_web_profile/images/icons/icon-lang-2.png" alt="" title="English"></span>
-                            </div>
-                            <div class="lang-dropdown">
-                                <ul>
-                                    <li><a href="index.html">German</a></li>
-                                    <li><a href="index.html">Italian</a></li>
-                                    <li><a href="index.html">Chinese</a></li>
-                                    <li><a href="index.html">Russian</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </header>
@@ -284,7 +117,7 @@
         <div class="close-btn"><i class="fas fa-times"></i></div>
         
         <nav class="menu-box">
-            <div class="nav-logo"><a href="index.html"><img src="assets_web_profile/images/logo.png" alt="" title=""></a></div>
+            <div class="nav-logo"><a href="index.html"><img src="assets_web_profile/images/logo-4.png" alt="" title=""></a></div>
             <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             <div class="contact-info">
                 <h4>Contact Info</h4>
@@ -361,7 +194,7 @@
                         <div class="inner-box">
                             <h3><a href="service-details.html">Embedded Analytics</a></h3>
                             <figure class="image-box"><img src="assets_web_profile/images/service/service-3.png" alt=""></figure>
-                            <p>Masalah yang terikat memastikan kesalahan yang sama milik kelemahan itu.</p>
+                            <p>Masalah yang terikat memastikan kesalahan yang sama milik kelemahan</p>
                             <div class="link"><a href="service-details.html"><i class="fas fa-angle-left"></i>Read More<i class="fas fa-angle-right"></i></a></div>
                         </div>
                     </div>
@@ -415,8 +248,8 @@
                                 </div>
                                 <figure class="image-box"><img src="assets_web_profile/images/resource/technonogy-1.png" alt=""></figure>
                                 <div class="inner">
-                                    <h3>Embedded in App</h3>
-                                    <p>To take trivial example which idea of ever undertakes.</p>
+                                    <h3>Squad Networking</h3>
+                                    <p>Squad yang berfokus dalam pembuatan serta pengelolaan suatu jaringan</p>
                                     <a href="index-4.html">Read More<i class="fas fa-angle-right"></i></a>
                                 </div>
                             </div>
@@ -431,8 +264,8 @@
                                 </div>
                                 <figure class="image-box"><img src="assets_web_profile/images/resource/technonogy-2.png" alt=""></figure>
                                 <div class="inner">
-                                    <h3>Analytics in Cloud</h3>
-                                    <p>Best every pleasure is too welcomed every pain avoided.</p>
+                                    <h3>Squad UI / UX</h3>
+                                    <p>Squad UI / UX adalah squad yang berperan dalam merancang desain antarmuka</p>
                                     <a href="index-4.html">Read More<i class="fas fa-angle-right"></i></a>
                                 </div>
                             </div>
@@ -447,8 +280,8 @@
                                 </div>
                                 <figure class="image-box"><img src="assets_web_profile/images/resource/technonogy-3.png" alt=""></figure>
                                 <div class="inner">
-                                    <h3>Real Time Insights</h3>
-                                    <p>Have to be repudiated all annoyances accepted the wise.</p>
+                                    <h3>Squad Mobile Dev</h3>
+                                    <p>Squad mobile adalah squad yang berfokus dalam membahas teknologi seputar pengembangan aplikasi.</p>
                                     <a href="index-4.html">Read More<i class="fas fa-angle-right"></i></a>
                                 </div>
                             </div>
@@ -463,8 +296,8 @@
                                 </div>
                                 <figure class="image-box"><img src="assets_web_profile/images/resource/technonogy-4.png" alt=""></figure>
                                 <div class="inner">
-                                    <h3>Secure & Fast</h3>
-                                    <p>Trouble that bound ensue equaly too those through weakness.</p>
+                                    <h3>Squad Web Dev</h3>
+                                    <p>Squad web adalah squad yang berfokus dalam membahas teknologi seputar pengembangan website.</p>
                                     <a href="index-4.html">Read More<i class="fas fa-angle-right"></i></a>
                                 </div>
                             </div>
@@ -496,12 +329,12 @@
                     <div id="content_block_08">
                         <div class="content-box mt-10">
                             <div class="sec-title text-left">
-                                <p>We are Naxly</p>
-                                <h2>Powerful analytics that goes beyond your organization</h2>
+                                <p>We are Plugin</p>
+                                <h2>Analisis hebat yang melampaui organisasi Anda</h2>
                                 <div class="decor" style="background-image: url(assets_web_profile/images/icons/decor-1.png);"></div>
                             </div>
                             <div class="text">
-                                <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it who do not know how to pursue pleasure rationally encounter.</p>
+                                <p>Mengambil contoh sepele, siapa di antara kita yang pernah melakukan latihan fisik yang melelahkan, kecuali untuk mendapatkan keuntungan darinya yang tidak tahu bagaimana mengejar kesenangan yang dijumpai secara rasional.</p>
                             </div>
                             <ul class="list-item clearfix">
                                 <li><span class="dots"></span>Idea of denouncing pleasure & praising</li>
@@ -530,14 +363,14 @@
                         <div class="inner-box">
                             <div class="sec-title text-left">
                                 <p>Why Choose Us</p>
-                                <h2>Reason for choosing</h2>
+                                <h2>Alasan memilih</h2>
                                 <div class="decor" style="background-image: url(assets_web_profile/images/icons/decor-1.png);"></div>
                             </div>
                             <div class="single-item">
                                 <h3>Value for Results</h3>
                                 <div class="box">
                                     <div class="icon-box"><i class="flaticon-analysis"></i></div>
-                                    <p>Except to obtain some advantage from who has any right to find.</p>
+                                    <p>Kecuali untuk mendapatkan keuntungan dari siapa yang berhak menemukan.</p>
                                 </div>
                             </div>
                         </div>
@@ -548,14 +381,14 @@
                                 <h3>Global Experience</h3>
                                 <div class="box">
                                     <div class="icon-box"><i class="flaticon-global"></i></div>
-                                    <p>Nor again is there anyone who loves or pursues or desires</p>
+                                    <p>Juga tidak ada orang yang mencintai atau mengejar atau menginginkan</p>
                                 </div>
                             </div>
                             <div class="single-item">
                                 <h3>High-Quality Results</h3>
                                 <div class="box">
                                     <div class="icon-box"><i class="flaticon-medal"></i></div>
-                                    <p>This mistakens idea denouncings and was born complete system.</p>
+                                    <p>Ini salah paham dengan kecaman dan lahirlah sistem yang lengkap.</p>
                                 </div>
                             </div>
                         </div>
@@ -630,11 +463,11 @@
                         <div class="content-box">
                             <div class="sec-title text-left">
                                 <p>Skills & Facts</p>
-                                <h2>We keep our self updated with latest trends</h2>
+                                <h2>Kami terus memperbarui diri kami dengan tren terbaru</h2>
                                 <div class="decor" style="background-image: url(assets_web_profile/images/icons/decor-1.png);"></div>
                             </div>
                             <div class="text">
-                                <p>As a solution providing company we offer a  range consulting, development quality testing services with 100% satisfaction.</p>
+                                <p>Sebagai perusahaan penyedia solusi, kami menawarkan berbagai konsultasi, layanan pengujian kualitas pengembangan dengan kepuasan 100%.</p>
                             </div>
                             <div class="inner-box">
                                 <div class="progress-box">
@@ -798,7 +631,7 @@
             <div class="upper-box clearfix mb-40">
                 <div class="sec-title text-left pull-left">
                     <p>News & Updates</p>
-                    <h2>Company news & updates</h2>
+                    <h2>Berita & pembaruan perusahaan</h2>
                     <div class="decor" style="background-image: url(assets_web_profile/images/icons/decor-1.png);"></div>
                 </div>
                 <div class="btn-box pull-right mt-60">
@@ -817,7 +650,7 @@
                                 <div class="file-box"><i class="far fa-folder-open"></i><p>Data Engineering</p></div>
                                 <div class="title-box">
                                     <div class="post-date"><p>05</p><span>Jan</span></div>
-                                    <h4><a href="blog-details.html">Naxly Named as a Global Leader in Big Data</a></h4>
+                                    <h4><a href="blog-details.html">Plugin Dinamakan sebagai Pemimpin Global dalam Big Data</a></h4>
                                 </div>
                                 <div class="link"><a href="blog-details.html">Read More<i class="fas fa-angle-right"></i></a></div>
                             </div>
@@ -835,7 +668,7 @@
                                 <div class="file-box"><i class="far fa-folder-open"></i><p>ML Consulting</p></div>
                                 <div class="title-box">
                                     <div class="post-date"><p>01</p><span>Jan</span></div>
-                                    <h4><a href="blog-details.html">The Current State of Artificial Intelligence Infographic.</a></h4>
+                                    <h4><a href="blog-details.html">Kondisi Infografis Kecerdasan Buatan Saat Ini.</a></h4>
                                 </div>
                                 <div class="link"><a href="blog-details.html">Read More<i class="fas fa-angle-right"></i></a></div>
                             </div>
@@ -853,7 +686,7 @@
                                 <div class="file-box"><i class="far fa-folder-open"></i><p>Data Strategy</p></div>
                                 <div class="title-box">
                                     <div class="post-date"><p>25</p><span>Dec</span></div>
-                                    <h4><a href="blog-details.html">Naxly as the Winners in Global Agency Awards</a></h4>
+                                    <h4><a href="blog-details.html">Plugin sebagai Pemenang Global Agency Awards</a></h4>
                                 </div>
                                 <div class="link"><a href="blog-details.html">Read More<i class="fas fa-angle-right"></i></a></div>
                             </div>
@@ -922,9 +755,9 @@
                     <div class="row clearfix">
                         <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget logo-widget">
-                                <figure class="footer-logo"><a href="index.html"><img src="assets_web_profile/images/footer-logo-4.png" alt=""></a></figure>
+                                <figure class="footer-logo"><a href="index.html"><img src="assets_web_profile/images/logo-4.png" alt=""></a></figure>
                                 <div class="copyright">
-                                    <p>Copyright &nbsp; <a href="index.html">Naxly</a>, All Rights Reserved.</p>
+                                    <p>Copyright &nbsp; <a href="index.html">Plugin</a>, All Rights Reserved.</p>
                                 </div>
                                 <ul class="social-links clearfix">
                                     <li><a href="index-4.html"><i class="fab fa-facebook-f"></i></a></li>
