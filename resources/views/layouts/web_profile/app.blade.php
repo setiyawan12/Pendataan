@@ -9,7 +9,7 @@
 <title>PLUG-IN V2</title>
 
 <!-- Fav Icon -->
-<link rel="icon" href="{{ asset('assets_web_profile/images/favicon.ico') }}" type="image/x-icon">
+<!-- <link rel="icon" href="{{ asset('assets_web_profile/images/favicon.ico') }}" type="image/x-icon"> -->
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
@@ -511,8 +511,8 @@
     <section class="testimonial-style-four">
         <div class="auto-container">
             <div class="sec-title text-center">
-                <p>Testimonials</p>
-                <h2>What say our clients about our<br />awesome service</h2>
+                <p>Achievement</p>
+                <h2>Daftar Penghargaan dan Prestasi</h2>
                 <div class="decor" style="background-image: url(assets_web_profile/images/icons/decor-1.png);"></div>
             </div>
             <div class="inner-container">
@@ -530,11 +530,6 @@
                                     <li><i class="flaticon-stars"></i></li>
                                 </ul>
                             </div>
-                            <div class="author-info">
-                                <figure class="image-box"><img src="assets_web_profile/images/resource/testimonial-5.png" alt=""></figure>
-                                <h4>Shelly Johnson</h4>
-                                <span class="designation">California</span>
-                            </div>
                         </div>
                     </div>
                     <div class="testimonial-content">
@@ -550,11 +545,6 @@
                                     <li><i class="flaticon-stars"></i></li>
                                 </ul>
                             </div>
-                            <div class="author-info">
-                                <figure class="image-box"><img src="assets_web_profile/images/resource/testimonial-6.png" alt=""></figure>
-                                <h4>Cathrine Wagner</h4>
-                                <span class="designation">Los Angeles</span>
-                            </div>
                         </div>
                     </div>
                     <div class="testimonial-content">
@@ -569,11 +559,6 @@
                                     <li><i class="flaticon-stars"></i></li>
                                     <li><i class="flaticon-stars"></i></li>
                                 </ul>
-                            </div>
-                            <div class="author-info">
-                                <figure class="image-box"><img src="assets_web_profile/images/resource/testimonial-7.png" alt=""></figure>
-                                <h4>Cuthbert Brain</h4>
-                                <span class="designation">California</span>
                             </div>
                         </div>
                     </div>
