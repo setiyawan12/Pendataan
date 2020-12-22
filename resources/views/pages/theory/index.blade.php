@@ -164,7 +164,8 @@ Theory
 @endsection
 @section('script')
 <script>
-    const url = 'http://localhost:8000/theory/'
+    // const url = 'http://localhost:8000/theory/'
+    const url = 'https://plugin-v2.herokuapp.com/theory'
 
     async function getData(id) {
         let url1 = url + id + '/edit';
