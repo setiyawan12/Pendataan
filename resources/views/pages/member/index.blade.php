@@ -53,7 +53,8 @@
 
         $('#btn-submit').click(function(){
             $.ajax({
-                url: "http://localhost:8000/web-profile",
+                // url: "https://localhost:8000/web-profile",
+                url;"https://plugin-v2.herokuapp.com/web-profile",
                 type: 'POST',
                 dataType: 'json',
                 data: {
