@@ -52,8 +52,12 @@
         });
 
         $('#btn-submit').click(function(){
+            // let url = "http://localhost:8000/web-profile";
+            // ws dipush oo 
+            //oke
+            let url = "https://plugin-v2.herokuapp.com/web-profile"
             $.ajax({
-                url: "http://localhost:8000/web-profile",
+                url: url,
                 type: 'POST',
                 dataType: 'json',
                 data: {
