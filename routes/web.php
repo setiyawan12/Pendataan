@@ -24,5 +24,7 @@ Route::get('/teori','Theory\TheoryController@getDataJson');
 Route::get('/teori1','Theory\TheoryController@coba');
 
 Route::get('/web-profile', function(){
-    return view('layouts.web_profile.app');
+    return view('pages.member.index');
 });
+
+Route::post('/web-profile', 'MemberController@store')->name('web-profile.store');

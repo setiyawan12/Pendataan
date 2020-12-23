@@ -13,3 +13,6 @@
 
 <!-- main-js -->
 <script src="{{asset('assets_web_profile/js/script.js')}}"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+@yield('script')
