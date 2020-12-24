@@ -52,12 +52,12 @@
         });
         $('#btn-submit').click(function(){
             // let url = "http://localhost:8000/web-profile";
-            const url = '{{env('APP_URL')}}'+'web-profile';
-            // let url = "https://plugin-v2.herokuapp.com/web-profile"
+            // const url = '{{env('APP_URL')}}'+'web-profile';
+            let url = "https://plugin-v2.herokuapp.com/web-profile"
             $.ajax({
                 url: url,
                 type: 'POST',
-                dataType: 'json',
+                dataType: 'JSON',
                 data: {
                     name: $('#name').val(),
                     email: $('#email').val(),
