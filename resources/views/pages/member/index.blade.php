@@ -50,12 +50,9 @@
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             }
         });
-
         $('#btn-submit').click(function(){
             // let url = "http://localhost:8000/web-profile";
             const url = '{{env('APP_URL')}}'+'web-profile';
-            // ws dipush oo 
-            //oke aja melu kimax
             // let url = "https://plugin-v2.herokuapp.com/web-profile"
             $.ajax({
                 url: url,

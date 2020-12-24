@@ -119,14 +119,14 @@
                                     },
                                     success: function(data){
                                         getData();
-                                        swal("Hokeh Bosku");  
+                                        swal("Hapus Berhasil");  
                                     },
                                     error: function(data){
                                         console.log(data.responseText);
                                     }
                                 })
                             } else {
-                                swal("Aman Bosku");
+                                swal("Batal Hapus");
                             }
                         });
                         
@@ -162,15 +162,9 @@
                         `
                         }
                         $('#tbody-member').html(html);
-
-                        //tempat inisialisasi dataTabel
-                        // -> ng kono
-                        //siap
-                        //tempat inisialisasi dataTabel
                     }
                 })
             }
-
             $('#form-modal-edit').on('click', '.btn-update', function(){
                 let url = 'http://localhost:8000/data-member/update/'+$('#id_member').val();
                 console.log(url);
