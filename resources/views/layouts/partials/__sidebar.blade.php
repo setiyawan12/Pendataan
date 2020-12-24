@@ -25,6 +25,9 @@
                 <li>
                     <a href="{{ route('theory.index') }}" class="iq-waves-effect"><i class="ri-home-4-line"></i><span>Theory</span></a>
                 </li>
+                <li>
+                    <a href="{{ route('data-member') }}" class="iq-waves-effect"><i class="ri-home-4-line"></i><span>Member</span></a>
+                </li>
             </ul>
         </nav>
         <div class="p-3"></div>

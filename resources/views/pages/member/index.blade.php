@@ -53,9 +53,10 @@
 
         $('#btn-submit').click(function(){
             // let url = "http://localhost:8000/web-profile";
+            const url = '{{env('APP_URL')}}'+'web-profile';
             // ws dipush oo 
-            //oke
-            let url = "https://plugin-v2.herokuapp.com/web-profile"
+            //oke aja melu kimax
+            // let url = "https://plugin-v2.herokuapp.com/web-profile"
             $.ajax({
                 url: url,
                 type: 'POST',
