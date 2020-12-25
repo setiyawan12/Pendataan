@@ -175,12 +175,10 @@
                     success: function(data) {
                         $('#modal-edit').modal('hide');
                         swal({
-                            title: "Are you sure?",
-                            text: "Once deleted, you will not be able to recover this imaginary file!",
-                            icon: "warning",
-                            buttons: true,
-                            dangerMode: true,
-                        })
+                        title: "Berhasil",
+                        text: "Update Data",
+                        icon: "success",
+                    });
                         getData();
                     },
                     error: function(data){
