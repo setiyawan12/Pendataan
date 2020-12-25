@@ -75,8 +75,7 @@
                 for(i = 0; i < btnEdit.length; i++){
                     btnEdit[i].addEventListener('click', function(){
                         $('#modal-edit').modal('show')
-                        const url = '{{env('APP_URL')}}'+'get-data-member-edit/'+ $(this).data('id');
-                        // let url = "http://localhost:8000/get-data-member-edit/" + $(this).data('id')
+                        let url = "https://plugin-v2.herokuapp.com/get-data-member-edit/" + $(this).data('id')
                         $.ajax({
                             url : url,
                             type: 'GET',
