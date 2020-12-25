@@ -19,7 +19,6 @@ class MemberController extends Controller
             'status' => true,
             'data' => $members
         ]);
-
     }
 
     public function store(Request $request){

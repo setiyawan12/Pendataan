@@ -24,7 +24,7 @@ Route::get('/teori','Theory\TheoryController@getDataJson');
 Route::get('/teori1','Theory\TheoryController@coba');
 
 Route::get('/data-member', 'MemberController@index')->name('data-member');
-Route::get('/get-data-member', 'MemberController@getDataMember')->name('getDataMember');
+Route::get('/get-data-member','MemberController@getDataMember')->name('getDataMember');
 Route::get('/get-data-member-edit/{id}', 'MemberController@getDataEdit')->name('getDataEdit');
 Route::put('/data-member/update/{id}', 'MemberController@update')->name('data-member.update');
 Route::delete('/data-member/delete/{id}', 'MemberController@destroy')->name('data-member.destroy');
