@@ -165,7 +165,7 @@
                 })
             }
             $('#form-modal-edit').on('click', '.btn-update', function(){
-                let url = 'http://plugin-v2.herokuapp.com/data-member/update/'+$('#id_member').val();
+                let url = 'https://plugin-v2.herokuapp.com/data-member/update/'+$('#id_member').val();
                 console.log(url);
                 $.ajax({
                     url:url,
