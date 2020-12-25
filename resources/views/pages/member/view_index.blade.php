@@ -75,7 +75,7 @@
                 for(i = 0; i < btnEdit.length; i++){
                     btnEdit[i].addEventListener('click', function(){
                         $('#modal-edit').modal('show')
-                        let url = "https://plugin-v2.herokuapp.com/get-data-member-edit/" + $(this).data('id')
+                        let url = '{{env('APP_URL')}}'+'get-data-member-edit/' + $(this).data('id')
                         $.ajax({
                             url : url,
                             type: 'GET',
@@ -165,7 +165,7 @@
                 })
             }
             $('#form-modal-edit').on('click', '.btn-update', function(){
-                let url = 'https://plugin-v2.herokuapp.com/data-member/update/'+$('#id_member').val();
+                let url = '{{env('APP_URL')}}'+'data-member/update/'+$('#id_member').val();
                 console.log(url);
                 $.ajax({
                     url:url,
