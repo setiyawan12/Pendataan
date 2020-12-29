@@ -28,6 +28,9 @@
                 <li>
                     <a href="{{ route('data-member') }}" class="iq-waves-effect"><i class="ri-home-4-line"></i><span>Member</span></a>
                 </li>
+                <li>
+                    <a href="https://plugin-v2.herokuapp.com/web-profile" class="iq-waves-effect"><i class="ri-home-4-line"></i><span>Web Profile</span></a>
+                </li>
             </ul>
         </nav>
         <div class="p-3"></div>
