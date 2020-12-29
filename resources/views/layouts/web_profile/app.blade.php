@@ -62,7 +62,7 @@
         <div class="popup-inner">
             <div class="overlay-layer"></div>
             <div class="search-form">
-                <form method="post" action="index.html">
+                <form method="post" action="#">
                     <div class="form-group">
                         <fieldset>
                             <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
@@ -72,11 +72,11 @@
                 </form>
                 <h3>Recent Search Keywords</h3>
                 <ul class="recent-searches">
-                    <li><a href="index.html">Finance</a></li>
-                    <li><a href="index.html">Idea</a></li>
-                    <li><a href="index.html">Service</a></li>
-                    <li><a href="index.html">Growth</a></li>
-                    <li><a href="index.html">Plan</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><a href="#">Idea</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Growth</a></li>
+                    <li><a href="#">Plan</a></li>
                 </ul>
             </div>
         </div>
@@ -91,7 +91,7 @@
             <div class="auto-container">
                 <div class="outer-box clearfix">
                     <div class="logo-box pull-left">
-                        <figure class="logo"><a href="index.html"><img src="{{asset('assets_web_profile/images/logo-4.png')}}" alt=""></a></figure>
+                        <figure class="logo"><a href="#"><img src="{{asset('assets_web_profile/images/logo-4.png')}}" alt=""></a></figure>
                     </div>
                     <div class="menu-area pull-right clearfix">
                         <!--Mobile Navigation Toggler-->
@@ -108,7 +108,7 @@
         <!--sticky Header-->
         <div class="sticky-header">
             <div class="auto-container clearfix">
-                <figure class="logo-box"><a href="index.html"><img src="assets_web_profile/images/logo-4.png" alt=""></a></figure>
+                <figure class="logo-box"><a href="#"><img src="assets_web_profile/images/logo-4.png" alt=""></a></figure>
             </div>
         </div>
     </header>
@@ -120,14 +120,14 @@
         <div class="close-btn"><i class="fas fa-times"></i></div>
         
         <nav class="menu-box">
-            <div class="nav-logo"><a href="index.html"><img src="assets_web_profile/images/logo-4.png" alt="" title=""></a></div>
+            <div class="nav-logo"><a href="#"><img src="assets_web_profile/images/logo-4.png" alt="" title=""></a></div>
             <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             <div class="contact-info">
                 <h4>Contact Info</h4>
                 <ul>
                     <li>Perumahan Parikesit Lagon</li>
                     <li><a href="tel:+8801682648101">+64 083231143254</a></li>
-                    <li><a href="mailto:info@example.com">plugin-v2@plugin.com</a></li>
+                    <li><a href="mailto:plugintegal@gmail.com">plugin-v2@plugin.com</a></li>
                 </ul>
             </div>
             <div class="social-links">
@@ -159,7 +159,7 @@
                         <h2>Plugin-v2</h2>
                         <h1>Startup</h1>
                         <p>Harus menjelaskan kepada Anda bagaimana semua gagasan keliru tentang kesenangan dan pujian rasa sakit ini lahir dan akan memberi Anda penjelasan lengkap tentang sistem, dan menjelaskan ajaran yang sebenarnya.</p>
-                        <a href="index-2.html" class="theme-btn style-nine">Learn More</a>
+                        <a href="#" class="theme-btn style-nine">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -175,10 +175,10 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-three wow flipInY" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <h3><a href="service-details.html">Analis Individu</a></h3>
+                            <h3><a href="#">Analis Individu</a></h3>
                             <figure class="image-box"><img src="assets_web_profile/images/service/service-1.png" alt=""></figure>
                             <p>Sederhana mudah membedakan dalam jam bebas saat pilihan daya kita.</p>
-                            <div class="link"><a href="service-details.html"><i class="fas fa-angle-left"></i>Read More<i class="fas fa-angle-right"></i></a></div>
+                            <div class="link"><a href="#"><i class="fas fa-angle-left"></i>Read More<i class="fas fa-angle-right"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -186,19 +186,19 @@
                     <div class="service-block-three wow flipInY" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><img src="{{ asset('assets_web_profile/images/service/service-2.png') }}" alt=""></figure>
-                            <h3><a href="service-details.html">Tim & Organisasi</a></h3>
+                            <h3><a href="#">Tim & Organisasi</a></h3>
                             <p>Oleh karena itu selalu peganglah hal-hal ini pada prinsip tolak kesenangan.</p>
-                            <div class="link"><a href="service-details.html"><i class="fas fa-angle-left"></i>Read More<i class="fas fa-angle-right"></i></a></div>
+                            <div class="link"><a href="#"><i class="fas fa-angle-left"></i>Read More<i class="fas fa-angle-right"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-three wow flipInY" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <h3><a href="service-details.html">Embedded Analytics</a></h3>
+                            <h3><a href="#">Embedded Analytics</a></h3>
                             <figure class="image-box"><img src="assets_web_profile/images/service/service-3.png" alt=""></figure>
                             <p>Masalah yang terikat memastikan kesalahan yang sama milik kelemahan</p>
-                            <div class="link"><a href="service-details.html"><i class="fas fa-angle-left"></i>Read More<i class="fas fa-angle-right"></i></a></div>
+                            <div class="link"><a href="#"><i class="fas fa-angle-left"></i>Read More<i class="fas fa-angle-right"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -253,7 +253,7 @@
                                 <div class="inner">
                                     <h3>Squad Networking</h3>
                                     <p>Squad yang berfokus dalam pembuatan serta pengelolaan suatu jaringan</p>
-                                    <a href="index-4.html">Read More<i class="fas fa-angle-right"></i></a>
+                                    <a href="#">Read More<i class="fas fa-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -269,7 +269,7 @@
                                 <div class="inner">
                                     <h3>Squad UI / UX</h3>
                                     <p>Squad UI / UX adalah squad yang berperan dalam merancang desain antarmuka</p>
-                                    <a href="index-4.html">Read More<i class="fas fa-angle-right"></i></a>
+                                    <a href="#">Read More<i class="fas fa-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -285,7 +285,7 @@
                                 <div class="inner">
                                     <h3>Squad Mobile Dev</h3>
                                     <p>Squad mobile adalah squad yang berfokus dalam membahas teknologi seputar pengembangan aplikasi.</p>
-                                    <a href="index-4.html">Read More<i class="fas fa-angle-right"></i></a>
+                                    <a href="#">Read More<i class="fas fa-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -301,7 +301,7 @@
                                 <div class="inner">
                                     <h3>Squad Web Dev</h3>
                                     <p>Squad web adalah squad yang berfokus dalam membahas teknologi seputar pengembangan website.</p>
-                                    <a href="index-4.html">Read More<i class="fas fa-angle-right"></i></a>
+                                    <a href="#">Read More<i class="fas fa-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -345,7 +345,7 @@
                                 <li><span class="dots"></span>Avoids a pain that produces no resultant</li>
                             </ul>
                             <div class="btn-box"><a href="about.html" class="theme-btn style-nine">Read More</a></div>
-                            <div class="lower-text"><h6><i class="fas fa-angle-right"></i>What You Need? <a href="index-4.html">Meet Our Experts.</a></h6></div>
+                            <div class="lower-text"><h6><i class="fas fa-angle-right"></i>What You Need? <a href="#">Meet Our Experts.</a></h6></div>
                         </div>
                     </div>
                 </div>
@@ -587,12 +587,12 @@
             </div>
             <div class="inner-box text-center">
                 <ul class="link-box clearfix">
-                    <li><a href="index-4.html"><i class="flaticon-next"></i>Exclusive Offers & Discount</a></li>
-                    <li><a href="index-4.html"><i class="flaticon-next"></i>Expert Advice & Tutorial</a></li>
-                    <li><a href="index-4.html"><i class="flaticon-next"></i>Regular Updates in Inbox</a></li>
+                    <li><a href="#"><i class="flaticon-next"></i>Exclusive Offers & Discount</a></li>
+                    <li><a href="#"><i class="flaticon-next"></i>Expert Advice & Tutorial</a></li>
+                    <li><a href="#"><i class="flaticon-next"></i>Regular Updates in Inbox</a></li>
                 </ul>
                 <div class="subscribe-form">
-                    <form action="index-4.html" method="post">
+                    <form action="#" method="post">
                         <div class="form-group">
                             <input type="email" name="email" placeholder="Your Email Address..." required="">
                             <button type="submit" class="theme-btn style-nine"><i class="flaticon-next"></i></button>
@@ -602,7 +602,7 @@
                                 <label class="custom-control material-checkbox">
                                 <input type="checkbox" class="material-control-input">
                                 <span class="material-control-indicator"></span>
-                                <span class="description">accept naxly private policy</span>
+                                <span class="description">accept plugin private policy</span>
                             </div>
                         </div>
                     </form>
@@ -706,15 +706,15 @@
                     <div class="row clearfix">
                         <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget logo-widget">
-                                <figure class="footer-logo"><a href="index.html"><img src="assets_web_profile/images/logo-4.png" alt=""></a></figure>
+                                <figure class="footer-logo"><a href="#"><img src="assets_web_profile/images/logo-4.png" alt=""></a></figure>
                                 <div class="copyright">
-                                    <p>Copyright &nbsp; <a href="index.html">Plugin</a>, All Rights Reserved.</p>
+                                    <p>Copyright &nbsp; <a href="#">Plugin</a>, All Rights Reserved.</p>
                                 </div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index-4.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-4.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-4.html"><i class="fab fa-google-plus-g"></i></a></li>
-                                    <li><a href="index-4.html"><i class="fab fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -726,8 +726,8 @@
                                 <div class="widget-content">
                                     <ul class="info-list clearfix">
                                         <li><i class="flaticon-music"></i><a href="tel:0055567890">+00 555 67 890</a></li>
-                                        <li><i class="flaticon-gmail"></i><a href="mailto:info@example.com">info@example.com</a></li>
-                                        <li><i class="flaticon-world"></i>124, Queens walk 2nd cross newyork 5241</li>
+                                        <li><i class="flaticon-gmail"></i><a href="mailto:plugintegal@gmail.com">plugintegal@gmail.com</a></li>
+                                        <li><i class="flaticon-world"></i>Perumahan nDalem Parikesit B7</li>
                                     </ul>
                                 </div>
                             </div>
@@ -739,10 +739,10 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="clearfix">
-                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>About Us</a></li>
-                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>Projects</a></li>
-                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>Services</a></li>
-                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>Faq’s</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right"></i>About Us</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right"></i>Projects</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right"></i>Services</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right"></i>Faq’s</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -754,10 +754,10 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="clearfix">
-                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>Individual</a></li>
-                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>Team</a></li>
-                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>Embeded</a></li>
-                                        <li><a href="index-4.html"><i class="fas fa-angle-right"></i>Embeded</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right"></i>Individual</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right"></i>Team</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right"></i>Embeded</a></li>
+                                        <li><a href="#"><i class="fas fa-angle-right"></i>Embeded</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -768,8 +768,8 @@
             <div class="footer-bottom clearfix">
                 <div class="right-column">
                     <ul class="footer-nav">
-                        <li><a href="index.html">Privacy Policy</a></li>
-                        <li><a href="index.html">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
                     </ul>
                 </div>
             </div>
